@@ -1,27 +1,25 @@
 ---
-title: ""
+title: "Computational Social Science (Soc 690)"
+author: "Duke University"
 output: 
   rmarkdown::html_document:
     toc: true
     toc_float: true
 ---
 
-![](Text_As_Data_Cover.png)
+![](network.jpeg)
+(obligatory network visualization)
 <br>
 <br>
 <br>
 
-## Contact Information
+## Instructor
 
+**Name:** [Chris Bail](www.chrisbail.net)  
 **Email:** christopher.bail@duke.edu  
-**Office Location:** [254 Soc/Psych Hall](https://www.google.com/maps/place/Department+of+Sociology/@36.0022543,-78.9392936,17z/data=!3m1!4b1!4m5!3m4!1s0x89ace6aefe680bdb:0xfe788099f23eced9!8m2!3d36.0022543!4d-78.9371049)  
-**Office Hours:** Tuesdays, 12 - 1:15 pm, Soc/Psych 254  
-**Website:** https://www.chrisbail.net  
+**Office Hours:** TBD 
 **Github:** https://github.com/cbail  
-**Teaching Assistants:** [Kate Coulter](kathryn.coulter@duke.edu) / By Appointment & <br> [Joe Littell](joseph.littell@duke.edu) /  Thursdays, 9 - 10 am, Gross 230K  
 **Slack Channel:** https://dukemids.slack.com/archives/CRSPSGFHR  
-**Dropbox (to submit Labs):** https://sakai.duke.edu/portal/directtool/4049fefe-3ba1-43e8-9cba-a92758c96655/  
-
 
 
 ## COVID-19 ANNOUNCEMENT
@@ -149,222 +147,143 @@ The field of computational social science is growing so rapidly that none of the
 Many of the most important advances in computational social science appear first on Twitter or blogs. I therefore encourage you to open a Twitter account- if you don’t already have one- and follow the authors we read, or consider checking out [the people I follow](https://twitter.com/chris_bail/following). Having a Twitter account will also come in handy for some of the exercises we do in class to collect data from Twitter. Of the many blogs that you might read, I recommend [R Bloggers](https://www.r-bloggers.com/), which provides a concise overview of new functions in R as well as solutions to common problems faced by computational social scientists, as well as those in other fields.
 
 
-## Course Schedule (Spring 2020)
+## Course Schedule (Spring 2021)
 
 We meet every Tuesday and Thursday unless otherwise noted. Readings must be completed before each class where they appear on the schedule below. Lab assignments are linked below immediately prior to the date they are open (note that each lab's due date is listed below as well as on the lab page). Links to my presentation slides and annotated code relevant to each lecture are below as well.
 
 
 ### **Introduction**
+#### January 24-30
 
-#### **January 9: Preliminaries**
-***Topics:***  
-Introductions and Housekeeping
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zGG9wPl1C5E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-***Materials:***  
-None 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/uuSWQN7uYhk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/b8XTtBnENfo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br>
 
 ***Required reading***:  
 - Salganik, Matthew, *Bit by Bit*, [Introduction](https://www.bitbybitbook.com/en/1st-ed/introduction/) & [Observing Behavior](https://www.bitbybitbook.com/en/1st-ed/observing-behavior/)  
+-Lazer et al. [Computational social science: Obstacles and opportunities](https://science.sciencemag.org/content/369/6507/1060.summary), *Science*.
+<br>
 
 ***Suggested reading***:  
-- David Donoho. [50 Years of Data Science](https://courses.csail.mit.edu/18.337/2015/docs/50YearsDataScience.pdf)  
 - Lazer et al. [Computational Social Science](https://science.sciencemag.org/content/323/5915/721), *Science*.  
 - Lazer et al. [Life in the network: the coming age of computational social science](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2745217/), *Science*.  
 - Watts, Duncan. [Should social science be more solution-oriented?](https://www.nature.com/articles/s41562-016-0015), *Nature*
-<br>
-
-#### **January 14: Introduction to Text as Data**
-***Topics:***  
-Strengths and Weaknesses of Text as Data
-
-***Materials:***   
-[Slides, ](https://cbail.github.io/ids704/strengths-weaknesses/Rpres/Strengths%20and%20Weaknesses.html) [ Document](https://cbail.github.io/ids704/strengths-weaknesses/rmarkdown/Strengths_and_Weaknesses.html)
-
-***Required reading***:  
-- Salganik, Matthew, *Bit by Bit*, [Asking Questions](https://www.bitbybitbook.com/en/1st-ed/asking-questions/).  
-- Mullainathan, Sendhil. [Biased Algorithms Are Easier to Fix Than Biased People](https://www.nytimes.com/2019/12/06/business/algorithm-bias-fix.html), *New York Times*
-
-***Suggested reading***:  
 - Blumenstock et al. [Predicting Poverty and Wealth from Mobile Phone Data](https://science.sciencemag.org/content/350/6264/1073), *Science*.
+- David Donoho. [50 Years of Data Science](https://courses.csail.mit.edu/18.337/2015/docs/50YearsDataScience.pdf)  
+<br>
+<br>
+<br>
 <br>
 
-#### **January 16: Ethics in Text as Data**
+### **Ethics**
+#### January 31-February 6 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/A-5QaX5ZiK8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/TT6dOQMKHhA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lJyK6kXeDbc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ***Required reading***:  
-- Salganik, Matthew. *Bit by Bit*, [Ethics](https://www.bitbybitbook.com/en/1st-ed/ethics/).  
+- Salganik, Matthew, *Bit by Bit*, [Ethics](https://www.bitbybitbook.com/en/1st-ed/ethics/) 
+- Adam Kramer, Jamie Guillory, & Jeffrey Hancock. [Emotional Contagion](https://www.pnas.org/content/111/24/8788), PNAS.
 
 ***Suggested reading***:  
 - Robinson Meyer. [Everything We Know About Facebook's Secret Mood Manipulation Experiment](https://www.theatlantic.com/technology/archive/2014/06/everything-we-know-about-facebooks-secret-mood-manipulation-experiment/373648/), *the Atlantic*.
 
-***Materials:***  
-[Slides, ](https://cbail.github.io/ids704/ethics/ethics.html#/)
 
 
-### **[Assignment: Lab 1](https://cbail.github.io/ids704/labs/lab1/lab1.html)**
-*- Due: January 28*
 
-#### **January 21: Application Programming Interfaces, Part 1**
-***Topics:***   
-What is an API? Credentials, and Rate Limiting
+### **Application Programming Interfaces**
+#### February 14- February 20
 
-***Materials:***  
-[Slides, ](https://cbail.github.io/ids704/apis/Rpres/APIs.html) [Annotated Code](https://cbail.github.io/ids704/apis/rmarkdown/Application_Programming_interfaces.html)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jde_c7pB5U8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-***Required Readings***  
-- Adam Kramer, Jamie Guillory, & Jeffrey Hancock. [Emotional Contagion](https://www.pnas.org/content/111/24/8788), PNAS.
+### **Screen Scraping**
+#### February 21- February 27
 
-#### **January 23: Application Programming Interfaces, Part 2**
-***Topics:***  
-Working with the Twitter API
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LjTZNmBjC5Q" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-***Materials:***  
-[Slides, ](https://cbail.github.io/ids704/apis/rmarkdown/Application_Programming_interfaces.html) [Annotated Code](https://cbail.github.io/ids704/apis/rmarkdown/Application_Programming_interfaces.html)
+### **An Introduction to Text Analysis**
+#### February 28- March 6
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pLsC4UyzX_U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### **[Assignment: Lab 2](https://cbail.github.io/ids704/labs/lab2/lab2.html)**
-*- Due: February 4* 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/TAlO-5NJB7I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-#### **January 28: Screen-Scraping, Part 1** 
-***Topics:***  
-What is screen-scraping, character encoding
-
-***Materials:***  
-[Slides, ](https://compsocialscience.github.io/summer-institute/2018/materials/day2-digital-trace-data/screenscraping/Rpres/SICSS_Screenscraping.html#/) [Annotated Code](https://cbail.github.io/ids704/screenscraping/rmarkdown/Screenscraping_in_R.html)
-
-#### **January 30: Screen-Scraping, Part 2**
-***Topics:***  
-Reading and parsing HTML
-
-***Materials:***  
-[Slides, ](https://compsocialscience.github.io/summer-institute/2018/materials/day2-digital-trace-data/screenscraping/Rpres/SICSS_Screenscraping.html#/) [Annotated Code](https://cbail.github.io/ids704/screenscraping/rmarkdown/Screenscraping_in_R.html)
-
-### **[Assignment: Lab 3](https://cbail.github.io/ids704/labs/lab3/lab3.html)**
-*- Due: February 13* 
-
-#### **February 4: Basic Text Analysis, Part 1** 
-***Topics:***  
-GREP, Tokenization, Stemming
-
-***Materials:***  
-[Slides, ](https://cbail.github.io/ids704/basic-text-analysis/Rpres/Basic_Text_Analysis.html#/) [Annotated Code](https://cbail.github.io/ids704/basic-text-analysis/rmarkdown/Basic_Text_Analysis_in_R.html)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wSIi2ZRKjaE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ***Required reading***:  
+- Justin Grimmer & Brandon Stewart. [Text as Data: The Promises and Pitfalls of Automated Content Analysis](https://www.cambridge.org/core/journals/political-analysis/article/text-as-data-the-promise-and-pitfalls-of-automatic-content-analysis-methods-for-political-texts/F7AAC8B2909441603FEB25C156448F20), Political Analysis. 
 - James Evans & Pedro Aceves. [Machine Translation: Mining Text for Social Theory](https://www.annualreviews.org/doi/abs/10.1146/annurev-soc-081715-074206). Annual Review of Sociology.  
 
 ***Suggested reading***:  
-- Justin Grimmer & Brandon Stewart. [Text as Data: The Promises and Pitfalls of Automated Content Analysis](https://www.cambridge.org/core/journals/political-analysis/article/text-as-data-the-promise-and-pitfalls-of-automatic-content-analysis-methods-for-political-texts/F7AAC8B2909441603FEB25C156448F20), Political Analysis.  
+ 
 - Bo Pang, Lillian Lee, & Shivakumar Vaithyanathan. [Thumbs up: Sentiment Classification using Machine Learning Techniques](https://www.aclweb.org/anthology/W02-1011/).    
 - Kathleen Carley. [Extracting Culture Through Textual Analysis](https://www.sciencedirect.com/science/article/abs/pii/0304422X94900116). Poetics, 22:291-312.  
 
-#### **February 6: No Class**
 
-#### **February 11: Basic Text Analysis, Part 2**
-***Topics:***  
-Text pre-processing, n-grams
+### **Topic Models**
+#### March 7- March 13
 
-***Materials:***  
-[Slides, ](https://cbail.github.io/ids704/basic-text-analysis/Rpres/Basic_Text_Analysis.html#/) [Annotated Code](https://cbail.github.io/ids704/basic-text-analysis/rmarkdown/Basic_Text_Analysis_in_R.html)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IUAHUEy1V0Q" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-
-### **Mid-Term Exam & Review**
-
-#### **February 13: Mid-Term Review**
-
-#### **February 18 Mid-Term Exam**
-
-
-### **[Assignment: Lab 4](https://cbail.github.io/ids704/labs/lab4/lab4.html)**
-*- Due: February 28* 
-
-#### **February 20: Dictionary-Based Analysis**
-***Materials:***  
-[Slides, ](https://cbail.github.io/ids704/dictionary-methods/Rpres/Dictionary%20Based%20Analysis.html) [Annotated Code](https://cbail.github.io/ids704/dictionary-methods/rmarkdown/Dictionary-Based_Text_Analysis.html)
-
-***Required reading***:  
-- Kramer et al. 2014. Experimental evidence of massive-scale emotional contagion through social networks Proceedings of the National Academy of Sciences
-
-
-### **[Assignment: Lab 5](https://cbail.github.io/ids704/labs/lab5/lab5.html)**
-*- Due: March 6* 
-
-#### **February 25: Topic Modeling**
-***Materials:***  
-[Slides, ](https://cbail.github.io/ids704/topic-modeling/Rpres/Topic%20Modeling.html#/) [Annotated Code](https://cbail.github.io/ids704/topic-modeling/Topic_Modeling.html)
 
 ***Required reading***:  
 - Blei, David M. 2012. Probabilistic Topic Models. Communications of the ACM (Note: this is a challenging article, so don’t worry if you are not able to understand every last part).
 
-#### **February 27: Structural Topic Models**
-***Materials:***  
-[Slides, ](https://cbail.github.io/ids704/topic-modeling/Rpres/Topic%20Modeling.html#/) [Annotated Code, ](https://cbail.github.io/ids704/topic-modeling/Topic_Modeling.html) [Running R on AWS](https://cbail.github.io/Running_R_in_the%20Cloud.html#/)
 
-#### **March 3: Social Network Analysis, Part I**
-***Topics:***  
-An Introduction to Social Network Analysis
+### **Text Networks**
+#### March 14- March 20 
 
-***Materials:***  
-[Slides, ](https://docs.google.com/presentation/d/18Jjq70XnotcSqQwj8hfq12xfIPCSvO8BhVsh71ZvOno/edit) [Annotated Code ](https://cbail.github.io/ids704/social-networks/Intro_to_Network_Analysis_in_R.html)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-2dBI2ULcQw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-***Required reading***:  
-- Nicholas Cristakis & James Fowler. [Connected: The Surprising Power of Our Social Networks and How they Shape Our Lives], Chapter One.
+### **Surveys in the Digital Age**
+#### March 21- March 27 
 
-***Additional reading***:  
-- Duncan Watts. 1999. [**Small Worlds**], Chapter 1. Princeton University Press: 3-8.  
-- Kieran Healy. (2013). [Using Metadata to Find Paul Revere](https://kieranhealy.org/blog/archives/2013/06/09/using-metadata-to-find-paul-revere/), Blog post.  
-- David Austin. (2006). [How Google Finds Your Needle in the Web's Haystack](http://www.ams.org/publicoutreach/feature-column/fcarc-pagerank), 
-American Mathematical Society Feature Column.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/j8fJGV17Hcg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SLAi9v5CCnM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HT1bQ3Bh79w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-#### **March 5: Social Network Analysis, Part II**
-***Topics:***  
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_vecQs7aB6o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-***Materials:***  
-[Slides, ](https://docs.google.com/presentation/d/18Jjq70XnotcSqQwj8hfq12xfIPCSvO8BhVsh71ZvOno/edit), [Annotated Code ](https://cbail.github.io/ids704/social-networks/Intro_to_Network_Analysis_in_R.html)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/97gahprIIOI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-***Required reading***:  
-- Nicholas Cristakis & James Fowler. [Connected: The Surprising Power of Our Social Networks and How they Shape Our Lives], Chapter One.
+### **Online Experiments**
+#### March 28- April 3
 
-***Additional reading***:  
-- Duncan Watts. 1999. [**Small Worlds**], Chapter 1. Princeton University Press: 3-8.  
-- Kieran Healy. (2013). [Using Metadata to Find Paul Revere](https://kieranhealy.org/blog/archives/2013/06/09/using-metadata-to-find-paul-revere/), Blog post.  
-- David Austin. (2006). [How Google Finds Your Needle in the Web's Haystack](http://www.ams.org/publicoutreach/feature-column/fcarc-pagerank), 
-American Mathematical Society Feature Column.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hKiKiWbeD6I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### **Spring Break**
-#### **March 10: No Class (Spring Break)**  
-#### **March 12: No Class (Spring Break)**
-#### **March 17: Extended Spring Break due to Coronavirus**
-#### **March 19: Extended Spring Break due to Coronavirus**
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cYyu5Ex0twE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-#### **March 24: Text Networks, Part 1**
-***Materials:***  
-[Slides, ](https://compsocialscience.github.io/summer-institute/2018/materials/day3-text-analysis/text-networks/Rpres/SICSS_Text_Networks.html) [Annotated Code](https://cbail.github.io/ids704/text-networks/rmarkdown/Text_Networks.html)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KDLFigGDORY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-#### **March 26: Text Networks, Part 2**
-***Topics:***  
-Textnets
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rAGMpZuU3RU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-***Materials:***  
-[Slides, ](https://compsocialscience.github.io/summer-institute/2018/materials/day3-text-analysis/text-networks/Rpres/SICSS_Text_Networks.html) [Annotated Code](https://compssocialscience.github.io/summer-institute/2018/materials/day3-text-analysis/text-networks/rmarkdown/SICSS_Text_Networks.html)
-
-#### **March 31: Word Embeddings, Part 1**
-***Materials:***  
-[Slides, ](https://cbail.github.io/ids704/word2vec/rpres/word2vec.html) [Annotated Code](https://cbail.github.io/ids704/word2vec/rmarkdown/word2vec.html)
-
-#### **April 2: Word Embeddings Part 2**
-***Materials:***  
-[Slides, ](https://cbail.github.io/ids704/word2vec/rpres/word2vec.html) [Annotated Code](https://cbail.github.io/ids704/word2vec/rmarkdown/word2vec.html)
-
-#### **April 7: Chat Bots**
-***Materials:***  
-[Slides on Chat Bots, ](https://cbail.github.io/ids704/chat-bots/Chat%20Bots%20and%20Language%20Generation.html#/)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/aQPce-WgJBY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-#### **April 9: Final Project Presentations**
-*- Groups 1-5, all individual projects not listed below*  
 
-#### **April 14: Final Project Presentations**
-*- Groups 6-10, individual projects: Abdur, Amandeep*
+### **Building Apps**
+#### April 4- April 10
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3wjYcIOpBgU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### **Wellness Week**
+#### April 11- April 17
+
+### **Chat Bots**
+#### April 18- April 24
+
+### **Presentations?**
+#### April 25- May 1
+
+
 
 
 
