@@ -1,0 +1,153 @@
+---
+title: "Lab 4: Dictionary-Based Analysis"
+output: 
+  html_document:
+    toc_float: true
+  
+---
+
+### Due: Friday, February 28
+
+**Introduction**
+
+This lab corresponds with the course material covering dictionary-based analysis, covered in class Thursday, February 20. Submit your completed assignment as a knit R Markdown PDF or HTML file to Dropbox (or printed PDF of a Jupyter Notebook) by the end of day Friday, February 28.
+
+**Resources**
+
+The data you will use for this lab is taken from a Kaggle Dataset created by Datafiniti provided at https://www.kaggle.com/datafiniti/consumer-reviews-of-amazon-products which contains over 34,000 reviews of Amazon products like the Kindle, Fire TV, etc. Click the "Download" link which should download a zip file "consumer-reviews-of-amazon-products" that contains 3 csv files. We will use the file called "1429_1.csv" as the dataset for this lab. 
+
+**Lab**
+
+1. (1 point) Using the link above, load the review dataset into your workspace. We will need the columns containing which product the review is for as well as the review text, indicate which columns they are and create a new cleaned dataframe with only these two columns. Print the first few rows of data.
+
+```{r, include = FALSE}
+getwd()
+df <- read.csv("data/consumer-reviews-of-amazon-products/1429_1.csv")
+head(df)
+df2 <- data.frame(df$name, df$reviews.text)
+names(df2) <- c("Product", "Review")
+head(df2)
+```
+
+2. (1 point) Summarize the data by outputting the products reviewed in this dataset as well as the number of reviews per product. 
+
+```{r, include = FALSE}
+df2 <- df2[order(df2$Product),]
+products <- unique(df2$Product)
+
+library(dplyr)
+test <- df2 %>% 
+  group_by(Product) %>%
+  summarise(no_rows = length(Product))
+```
+
+3. (1 point) You will see there are 49 products with various review counts. Imagine the case that you are a consumer deciding between two similar products to purchase and are using reviews to help inform this purchase. From our data, select two products that are reasonable to compare and create new dataframes for each product containing only the reviews for that product. Identify which product you chose and print the first few rows of data for each product's dataframe. Make sure each product has at least 50 reviews. *Hint: sort products alphabetically then use the split function.*
+
+```{r, include = FALSE}
+
+#choose 39 and 40 product
+
+byproduct <- split(df2, df2$Product)
+
+prod1 <- as.data.frame(byproduct[39])
+colnames(prod1) <- c("Product1", "Review")
+prod2 <- as.data.frame(byproduct[40])
+colnames(prod2) <- c("Product2", "Review")
+
+```
+
+4. (1 point) Create a tidy text object for each product's review data.
+
+
+```{r, include = FALSE}
+library(tidytext)
+
+prod1[] <- lapply(prod1, as.character)
+prod2[] <- lapply(prod2, as.character)
+
+prod1.tidy <- prod1 %>% 
+    select(Product1,Review) %>%
+    unnest_tokens("word", Review)
+
+
+prod2.tidy <- prod2 %>% 
+    select(Product2,Review) %>%
+    unnest_tokens("word", Review)
+```
+
+5. (2 points) Clean the text of each dataset's review column as you see fit and find the top 20 frequent words for each product's reviews. Which words are unique to each product's top 20 list? Which words appear in both?
+
+```{r, include = FALSE}
+# remove stop words and numbers
+data("stop_words")
+
+prod1.words <-
+   prod1.tidy %>%
+      anti_join(stop_words) %>%
+        count(word) %>%
+        arrange(desc(n))
+    
+
+prod1.words <-  prod1.words[-grep("https|t.co|amp|rt", prod1.words$word),]
+prod1.words <-  prod1.words[-grep("\\b\\d+\\b", prod1.words$word),]
+
+
+
+prod1.20 <- prod1.words[1:20,]
+prod1.20
+```
+
+```{r, include = FALSE}
+
+prod2.words <-
+   prod2.tidy %>%
+      anti_join(stop_words) %>%
+        count(word) %>%
+        arrange(desc(n))
+    
+
+prod2.words <-  prod2.words[-grep("https|t.co|amp|rt", prod2.words$word),]
+
+
+prod2.20 <- prod2.words[1:20,]
+prod2.20
+```
+```{r, include = FALSE}
+words <- c(as.list(prod1.20$word), as.list(prod2.20$word))
+
+uniquewords <- unique(words)
+```
+
+6. (2 points) Create a dictionary of relevant terms that might aid in our comparison of these two products. Subset the tidytext dataframe that contain these words. What percentage of reviews did you capture with your dictionary for each product?
+```{r, include = FALSE}
+
+prod.dict <- c("fast", "battery", "bright")
+library(stringr)
+
+dictprod1 <- prod1[str_detect(prod1$Review, prod.dict),]
+
+dictprod2 <- prod2[str_detect(prod2$Review, prod.dict),]
+
+# percentage of reviews for first product
+15 / 372
+# percentage of reviews for second product
+268 / 10966
+```
+
+7. (2 points) Perform a sentiment analysis on each individual review and then average your results for the entire set using the bing sentiment dictionary.  Based on your results, which product would you choose to purchase?
+
+```{r, include = FALSE}
+# sentiment prod 1
+prod1.sent <- prod1.tidy %>%
+  inner_join(get_sentiments("bing")) %>%
+  count(Product1, sentiment)
+
+
+# sentiment prod 2
+prod2.sent <- prod2.tidy %>%
+  inner_join(get_sentiments("bing")) %>%
+  count(Product2, sentiment)
+
+#compare ratio between positive and negative and say which is better
+```
+

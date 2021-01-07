@@ -1,0 +1,75 @@
+---
+title: "Lab 3: Basic Text Analysis"
+output: 
+  html_document:
+    toc_float: true
+  
+---
+
+### Due: February 13, EOD
+
+#### Instructions
+
+This lab corresponds with the course material covering basic text analysis (see associated class material from February 4 and February 11). For each question please be sure to read the directions **carefully**. The questions will indicate specific techniques and application selections so that you as students can feel fully confident in knowing this topic. Each question should be answered fully including both your code as well as sone type of output to show that your code worked properly (ex. using a head() call to display the results of a query). If code isn't needed to answer the question, your written output should display the same process as those that do have code + output - in other words, please be sure to justify your answers so that it is clear why you are giving that answer and, more specifically, make sure each part of the question is fully answered by your response.
+
+This lab will count for 10 points total (division of these points is indicated by each portion below) and is due EOD on February 13. Submissions should be received through Dropbox and each student should submit at minimum a HTML or PDF file of their knit R Markdown file (be sure to check that your options are set to output your knit files so that we can see code and output that are required for answers). In order to recieve full credit you must turn in a PDF or HTML of your .RMD file individually by the due date with all your code and cells run. You may work with others but each student is expected to turn in their own lab submissions each week. 
+
+#### Load lab data
+
+
+```{r, include=FALSE}
+# load required packages to knit
+library(dplyr)
+library(text2vec)
+library(tm)
+library(tidytext)
+```
+
+
+In addition to loading any packages needed to answer the questions below, please load the dataset described here to your environment. We will use the Movie Review data frame the text2vec package for this assignment. To load this dataset, run the code below shown below. Note that we will use the "review" column where each value or review is an individual document within our analysis.
+
+```{r}
+library(text2vec)
+
+# confirm upload of data frame
+glimpse(movie_review)
+head(movie_review$review)
+```
+
+#### Begin lab
+
+1. (1 point) Before cleaning or processing data, it is good to have an idea of what things you should look out for in this specific case. Using just the output of "reviews" shown above, describe an example of one of the processing steps described in class clearly shown in our data. (In other words, what issues do you see specifically with this data? Ex. numbers are used in each of the 5 reviews, so they may be important to consider for our analysis.) 
+
+```{r, include=FALSE}
+# answer should be one example of the "issues" of using text data as described in class (ex. punctuation, capitalization, need to use reg exp, etc)
+```
+
+2. (1 point) Create a corpus of this dataframe.
+
+```{r, include=FALSE}
+library(tm)
+review.corpus <- Corpus(VectorSource(as.vector(movie_review$review)))
+review.corpus
+# make sure corpus has 5k docs
+```
+
+3. (1 point) Create a new dataframe to store our reviews in tidytext format.
+
+```{r, include=FALSE}
+library(tidytext)
+tidy.reviews <- movie_review %>%
+    select(id,review) %>%
+    unnest_tokens("word", review)
+# make sure corpus has 5k docs
+head(tidy.reviews)
+```
+
+4. (2 points) Using your corpus, perform the associated pre-processing step: stopwords, punctuation, numbers, word case, white space, stemming. If this step does not apply in this case given the data format we are using, indicate that is the case:
+
+5. (2 points) Using your tidytext data object, perform the same text pre-processing steps indicated above. If this step does not apply in this case given the data format we are using, indicate that is the case:
+
+6. (1 point) Create and inspect a document term matrix using your corpus object.
+
+7. (1 point) Create and inspect a document term matrix using your tidytext object.
+
+8. (1 point) Describe one major difference between using a corpus or tidytext as it would effect your analysis.

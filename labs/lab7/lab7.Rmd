@@ -1,0 +1,15 @@
+---
+title: "Lab 7: Word Embeddings"
+output: 
+  html_document:
+    toc_float: true
+  
+---
+
+### Due: April 2
+
+This lab corresponds with the course material covering word embeddings. Submit your completed assignment as an R Markdown file to Dropbox by the start of class on April 2.
+
+1.
+
+2. 

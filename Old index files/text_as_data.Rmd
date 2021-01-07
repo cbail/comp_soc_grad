@@ -1,0 +1,342 @@
+---
+title: ""
+output: 
+  rmarkdown::html_document:
+    toc: true
+    toc_float: true
+---
+
+![](Text_As_Data_Cover.png)
+<br>
+<br>
+<br>
+
+## Contact Information
+
+**Email:** christopher.bail@duke.edu  
+**Office Location:** [254 Soc/Psych Hall](https://www.google.com/maps/place/Department+of+Sociology/@36.0022543,-78.9392936,17z/data=!3m1!4b1!4m5!3m4!1s0x89ace6aefe680bdb:0xfe788099f23eced9!8m2!3d36.0022543!4d-78.9371049)  
+**Office Hours:** Tuesdays, 12 - 1:15 pm, Soc/Psych 254  
+**Website:** https://www.chrisbail.net  
+**Github:** https://github.com/cbail  
+**Teaching Assistants:** [Kate Coulter](kathryn.coulter@duke.edu) / Tuesdays, 3 - 4 pm, Gross 230D & <br> [Joe Littell](joseph.littell@duke.edu) /  Thursdays, 9 - 10 am, Gross 230K  
+**Slack Channel:** https://dukemids.slack.com/archives/CRSPSGFHR  
+**Dropbox (to submit Labs):** https://sakai.duke.edu/portal/directtool/4049fefe-3ba1-43e8-9cba-a92758c96655/  
+
+
+## Course Description
+
+Welcome to "Data Scraping and Text Analysis" (IDS 703), one of the core courses in [Duke University's Masters Program in Interdisciplinary Data Science (MIDS)](https://datascience.duke.edu/). The past decade has witnessed an explosion of data produced by websites such as Twitter, Facebook, Google, and Wikipedia, but also the mass digitization of historical archives and administrative records. Though these new data sources hold enormous potential to address a range of pressing problems within industry and academia, collecting and analyzing text-based data presents unique challenges. Fortunately, the widespread availability of text-based data coincides with major advances in the fields of computer science and natural language processing. This course will provide students with an overview of popular techniques for collecting, processing, and analyzing text-based data—including screen-scraping, mining data from application programming interfaces or APIs, topic modeling, text networks, and advanced text classifiers. We will also discuss the challenge of conducting empirical research with these data, including ethics, causal inference, and the external validity of digital sources.
+
+## Prerequisites
+
+R will be the main programming language for this course. Though the class will review basic programming techniques such as loops and functions, practical experiences with R is highly recommended. The majority of our time will be spent mastering the following R packages: `rvest`, `rtweet`, `lda`, `stm`, `ldaviz`, `textnets`, and `wordVectors` as well as a variety of functions in base R. General knowledge of data structures, basic programming, and rudimentary statistics is also required.
+
+
+## Readings
+
+[Salganik, Matthew. *Bit by Bit: Social Research in the Digital Age.* Princeton: Princeton University Press](https://press.princeton.edu/books/ebook/9781400888184/bit-by-bit)
+
+[Nicholas Cristakis & James Fowler. *Connected: The Surprising Power of Our Social Networks and How they Shape Our Lives*, Hachette](http://www.connectedthebook.com/)  
+
+All other readings are linked under course material as indicated in the course schedule below.
+
+## Requirements
+
+Success in this course requires that you attend class, complete requisite readings before class, complete weekly homework assignments, complete a mid-term exam, and develop a final group project with several of your classmates. I describe each of these requirements in the following sections.
+
+#### Readings
+
+You must complete all readings prior to class and come to our meetings prepared to discuss them.
+
+#### Labs
+
+Weekly homework exercises or "labs" are linked in the course schedule below and are designed to gauge your knowledge of the material presented during that week. Each lab is designed to correspond with a major course topic, which will be indicated in the lab title. Each lab will be posted at least one week prior to its due date so that it is available for students at the start of the first lecture covering that topic and is due via [Dropbox](https://sakai.duke.edu/portal/site/6f22e36f-1583-4afe-a6e0-ad75fb2229b9/tool-reset/4049fefe-3ba1-43e8-9cba-a92758c96655) after the second lecture on the topic, prior to the next scheduled lecture's start. For example, Lab 1 which covers material presented on APIs (January 21 and 23) will be posted by the start of class, January 21, and will be due via Dropbox prior to January 28's lecture.
+
+#### Mid-Term Exam
+
+The mid-term exam will include approximately 20 multiple choice and short answer questions that cover content from the first half of the class.
+
+#### Final Project
+
+The final project will be a team-based research project that fuses all of the skills we learn during the course of the semester in order to answer a question that can be solved with text-based data. All projects must analyze at least 1,000 documents and apply some type of automated text analysis to identify meaningful patterns within them and address an empirical question of interest to data scientists, broadly defined. Examples might include a sentiment analysis of a company’s tweets and responses to those tweets in order to measure customer satisfaction, or an analysis that seeks to determine why posts on Facebook fan pages go viral.
+
+Each team must produce a 20-minute presentation that describes their research project, delivered in powerpoint or another medium during a final class period and delivered to the instructor before this time. Each team must also submit a report that details their work and what type of work each student contributed to the project (i.e which team members contributed to which part of the project and precisely what work each team member did)– your goal should be for all members of the team to contribute to each stage of the project. As an additional accountability mechanism, ⅓ of your grade for the final project will be determined by your fellow group members, with the remaining ⅔ of your grade for the project determined by Professor Bail (and this part of the grade will be assigned to the entire team, instead of by individual members).
+
+#### Participation
+
+Attendance in this course is mandatory and you are expected to be an active participant in all classroom discussions and exercises. If you suffer from social anxiety or if English is not your first language, I encourage to participate in discussions outside of class on our Slack Channel. Uncivil behavior such as engaging in personal conversations during lectures or discussion sections, browsing internet sites not relevant to classroom discussions, and cell phone usage will negatively affect your grade. Your participation grade will be calculated at the end of the semester, but if you would like to receive input on your participation grade at any point during the semester please contact me.
+
+#### Grading Scheme
+
+Labs: 30%
+
+Mid-Term Exam: 30%
+
+Final Project: 30% (⅓ of this grade is determined by your fellow group members and ⅔ is determined by Professor Bail)
+
+Participation: 10%
+
+
+## General Course Policies
+
+I am a very reasonable person and understand that sometimes “life happens” and you may not be able to complete your work in a timely manner. I will therefore carefully consider all explanations for deviance from the general course policies outlined below.
+
+#### Attendance
+
+Attendance for all lectures is mandatory. If you have a University-excused reason to miss please follow the proper procedure for letting your TA know about it. You are responsible for knowing and acting in accordance with University policy.
+
+#### Academic Integrity
+
+Understand and follow the Duke Community Standard. Plagiarism, cheating or other violations will be dealt with according to University policy. All student assignments will be processed by plagiarism detection software.
+
+#### Mental Health and Stress
+
+If you are suffering from stress, depression, anxiety, or any other mental health issues that are common among Duke students, please consider visiting Counseling and Psychological Services (CAPS) on campus, who provide support on everything from minor to major mental health issues.
+
+#### Extra-Credit Policy
+
+There will be no extra credit or make-up assignments. 
+
+#### Syllabus
+  
+I reserve the right to make changes to the syllabus, including project due dates and test dates. These changes will be announced as early as possible and no later than one week before materials are due.
+
+#### Help Us Make This Course Better
+
+Creating high quality teaching materials is hard work! If you ever discover any errors or inconsistencies in the teaching materials on this site, please email one of the teaching assistants and cc me.
+
+## Resources
+
+Below I have listed several resources which I hope might be helpful to you for this course and beyond (particularly if you want to pursue the study of text as data after this class).
+
+#### RStudio Tutorials
+
+In this class, we will use the R software, which is free and open-source. There are a variety of different ways to use R, but the most common way to do so is with the software RStudio, a free Graphical User Interface which you can either run on your laptop, or via a web server. R and RStudio are both supported by a vibrant community of individuals who have created a treasure-trove of learning resources online. [Here is a link](https://education.rstudio.com/) to some very helpful beginner tutorials, and this link also includes some intermediate and advanced tutorials if you really want to challenge yourself.
+
+#### The Summer Institutes in Computational Social Science (SICSS)
+
+I am the co-founder of the Summer Institutes in Computational Social Science. These annual events are designed to introduce PhD students and other young faculty members to the field in dozens of places around the globe. Though masters-level students are not currently invited to attend the events, my co-founder and I have created an [extensive website](https://compsocialscience.github.io/summer-institute/curriculum) that includes links to videos of lectures that he and I give on a range of topics, as well as talks by some of the most renowned scholars in the field, employees of large companies interested in the field such as Facebook, and others who work in non-profits or government. If you find this class interesting or exciting, you may wish to check out some of the videos from these speakers to get a sense of the full-array of work going on in our field.
+
+#### Stack Overflow
+
+The field of computational social science is growing so rapidly that none of the resources I give you will remain at the cutting edge for long. You will almost certainly encounter issues unique to the data we collect as part of our group research project and/or incompatibilities between software packages and/or your computer. Stack Overflow is a website where computer programmers help each other solve such problems. Individuals ask questions, and others earn “reputation points” for solving their problems—these reputation points are awarded by the person who asks the question as well as other site users who vote upon the elegance/efficiency of each solution. For you, this reputation system means you can quickly identify the most high-quality solutions to your problems.
+
+#### Twitter/Blogs
+
+Many of the most important advances in computational social science appear first on Twitter or blogs. I therefore encourage you to open a Twitter account- if you don’t already have one- and follow the authors we read, or consider checking out [the people I follow](https://twitter.com/chris_bail/following). Having a Twitter account will also come in handy for some of the exercises we do in class to collect data from Twitter. Of the many blogs that you might read, I recommend [R Bloggers](https://www.r-bloggers.com/), which provides a concise overview of new functions in R as well as solutions to common problems faced by computational social scientists, as well as those in other fields.
+
+
+## Course Schedule (Spring 2020)
+
+We meet every Tuesday and Thursday unless otherwise noted. Readings must be completed before each class where they appear on the schedule below. Lab assignments are linked below immediately prior to the date they are open (note that each lab's due date is listed below as well as on the lab page). Links to my presentation slides and annotated code relevant to each lecture are below as well.
+
+
+### **Introduction**
+
+#### **January 9: Preliminaries**
+***Topics:***  
+Introductions and Housekeeping
+
+***Materials:***  
+None 
+
+***Required reading***:  
+- Salganik, Matthew, *Bit by Bit*, [Introduction](https://www.bitbybitbook.com/en/1st-ed/introduction/) & [Observing Behavior](https://www.bitbybitbook.com/en/1st-ed/observing-behavior/)  
+
+***Suggested reading***:  
+- David Donoho. [50 Years of Data Science](https://courses.csail.mit.edu/18.337/2015/docs/50YearsDataScience.pdf)  
+- Lazer et al. [Computational Social Science](https://science.sciencemag.org/content/323/5915/721), *Science*.  
+- Lazer et al. [Life in the network: the coming age of computational social science](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2745217/), *Science*.  
+- Watts, Duncan. [Should social science be more solution-oriented?](https://www.nature.com/articles/s41562-016-0015), *Nature*
+<br>
+
+#### **January 14: Introduction to Text as Data**
+***Topics:***  
+Strengths and Weaknesses of Text as Data
+
+***Materials:***   
+[Slides, ](https://cbail.github.io/ids704/strengths-weaknesses/Rpres/Strengths%20and%20Weaknesses.html) [ Document](https://cbail.github.io/ids704/strengths-weaknesses/rmarkdown/Strengths_and_Weaknesses.html)
+
+***Required reading***:  
+- Salganik, Matthew, *Bit by Bit*, [Asking Questions](https://www.bitbybitbook.com/en/1st-ed/asking-questions/).  
+- Mullainathan, Sendhil. [Biased Algorithms Are Easier to Fix Than Biased People](https://www.nytimes.com/2019/12/06/business/algorithm-bias-fix.html), *New York Times*
+
+***Suggested reading***:  
+- Blumenstock et al. [Predicting Poverty and Wealth from Mobile Phone Data](https://science.sciencemag.org/content/350/6264/1073), *Science*.
+<br>
+
+#### **January 16: Ethics in Text as Data**
+***Required reading***:  
+- Salganik, Matthew. *Bit by Bit*, [Ethics](https://www.bitbybitbook.com/en/1st-ed/ethics/).  
+
+***Suggested reading***:  
+- Robinson Meyer. [Everything We Know About Facebook's Secret Mood Manipulation Experiment](https://www.theatlantic.com/technology/archive/2014/06/everything-we-know-about-facebooks-secret-mood-manipulation-experiment/373648/), *the Atlantic*.
+
+
+### **[Assignment: Lab 1](https://cbail.github.io/ids704/labs/lab1/lab1.html)**
+*- Due: January 28*
+
+#### **January 21: Application Programming Interfaces, Part 1**
+***Topics:***   
+What is an API? Credentials, and Rate Limiting
+
+***Materials:***  
+[Slides, ](https://cbail.github.io/ids704/apis/Rpres/APIs.html) [Annotated Code](https://cbail.github.io/ids704/apis/rmarkdown/Application_Programming_interfaces.html)
+
+***Required Readings***  
+- Adam Kramer, Jamie Guillory, & Jeffrey Hancock. [Emotional Contagion](https://www.pnas.org/content/111/24/8788), PNAS.
+
+#### **January 23: Application Programming Interfaces, Part 2**
+***Topics:***  
+Working with the Twitter API
+
+***Materials:***  
+[Slides, ](https://cbail.github.io/ids704/apis/rmarkdown/Application_Programming_interfaces.html) [Annotated Code](https://cbail.github.io/ids704/apis/rmarkdown/Application_Programming_interfaces.html)
+
+
+### **[Assignment: Lab 2](https://cbail.github.io/ids704/labs/lab2/lab2.html)**
+*- Due: February 4* 
+
+#### **January 28: Screen-Scraping, Part 1** 
+***Topics:***  
+What is screen-scraping, character encoding
+
+***Materials:***  
+[Slides, ](https://compsocialscience.github.io/summer-institute/2018/materials/day2-digital-trace-data/screenscraping/Rpres/SICSS_Screenscraping.html#/) [Annotated Code](https://cbail.github.io/ids704/screenscraping/rmarkdown/Screenscraping_in_R.html)
+
+#### **January 30: Screen-Scraping, Part 2**
+***Topics:***  
+Reading and parsing HTML
+
+***Materials:***  
+[Slides, ](https://compsocialscience.github.io/summer-institute/2018/materials/day2-digital-trace-data/screenscraping/Rpres/SICSS_Screenscraping.html#/) [Annotated Code](https://cbail.github.io/ids704/screenscraping/rmarkdown/Screenscraping_in_R.html)
+
+### **[Assignment: Lab 3](https://cbail.github.io/ids704/labs/lab3/lab3.html)**
+*- Due: February 13* 
+
+#### **February 4: Basic Text Analysis, Part 1** 
+***Topics:***  
+GREP, Tokenization, Stemming
+
+***Materials:***  
+[Slides, ](https://cbail.github.io/ids704/basic-text-analysis/Rpres/Basic%20Text%20Analysis.html#/) [Annotated Code](https://cbail.github.io/ids704/basic-text-analysis/rmarkdown/Basic_Text_Analysis_in_R.html)
+
+***Required reading***:  
+- James Evans & Pedro Aceves. [Machine Translation: Mining Text for Social Theory](https://www.annualreviews.org/doi/abs/10.1146/annurev-soc-081715-074206). Annual Review of Sociology.  
+
+***Suggested reading***:  
+- Justin Grimmer & Brandon Stewart. [Text as Data: The Promises and Pitfalls of Automated Content Analysis](https://www.cambridge.org/core/journals/political-analysis/article/text-as-data-the-promise-and-pitfalls-of-automatic-content-analysis-methods-for-political-texts/F7AAC8B2909441603FEB25C156448F20), Political Analysis.  
+- Bo Pang, Lillian Lee, & Shivakumar Vaithyanathan. [Thumbs up: Sentiment Classification using Machine Learning Techniques](https://www.aclweb.org/anthology/W02-1011/).    
+- Kathleen Carley. [Extracting Culture Through Textual Analysis](https://www.sciencedirect.com/science/article/abs/pii/0304422X94900116). Poetics, 22:291-312.  
+
+#### **February 6: No Class**
+
+#### **February 11: Basic Text Analysis, Part 2**
+***Topics:***  
+Text pre-processing, n-grams
+
+***Materials:***  
+[Slides, ](https://cbail.github.io/ids704/basic-text-analysis/Rpres/Basic%20Text%20Analysis.html#/) [Annotated Code](https://cbail.github.io/ids704/basic-text-analysis/rmarkdown/Basic_Text_Analysis_in_R.html)
+
+
+### **Mid-Term Exam & Review**
+
+#### **February 13: Mid-Term Review**
+
+#### **February 18 Mid-Term Exam**
+
+
+### **[Assignment: Lab 4](https://cbail.github.io/ids704/labs/lab4/lab4.html)**
+*- Due: February 27* 
+
+#### **February 20: Dictionary-Based Analysis**
+***Materials:***  
+[Slides, ](https://cbail.github.io/ids704/dictionary-methods/Rpres/Dictionary%20Based%20Analysis.html) [Annotated Code](https://cbail.github.io/ids704/dictionary-methods/rmarkdown/Dictionary-Based_Text_Analysis.html)
+
+***Required reading***:  
+- Kramer et al. 2014. Experimental evidence of massive-scale emotional contagion through social networks Proceedings of the National Academy of Sciences
+
+
+### **[Assignment: Lab 5](https://cbail.github.io/ids704/labs/lab5/lab5.html)**
+*- Due: March 3* 
+
+#### **February 25: Topic Modeling, Part 1**
+***Materials:***  
+[Slides, ](https://cbail.github.io/ids704/topic-modeling/Rpres/Topic%20Modeling.html#/) [Annotated Code](https://cbail.github.io/ids704/topic-modeling/rmarkdown/Topic_Modeling.html)
+
+***Required reading***:  
+- Blei, David M. 2012. Probabilistic Topic Models. Communications of the ACM (Note: this is a challenging article, so don’t worry if you are not able to understand every last part).
+
+#### **February 27: Topic Modeling, Part 2**
+***Materials:***  
+[Slides, ](https://cbail.github.io/ids704/topic-modeling/Rpres/Topic%20Modeling.html#/) [Annotated Code](https://cbail.github.io/ids704/topic-modeling/rmarkdown/Topic_Modeling.html)
+
+#### **March 3: Structural Topic Models**
+***Materials:***  
+[Slides, ](https://cbail.github.io/ids704/topic-modeling/Rpres/Topic%20Modeling.html#/) [Annotated Code](https://cbail.github.io/ids704/topic-modeling/rmarkdown/Topic_Modeling.html)
+
+#### **March 5: Social Network Analysis**
+***Topics:***  
+An Introduction to Social Network Analysis
+
+***Materials:***  
+[Slides, ](https://docs.google.com/presentation/d/18Jjq70XnotcSqQwj8hfq12xfIPCSvO8BhVsh71ZvOno/edit)
+
+***Required reading***:  
+- Nicholas Cristakis & James Fowler. [Connected: The Surprising Power of Our Social Networks and How they Shape Our Lives], Chapter One.
+
+***Additional reading***:  
+- Duncan Watts. 1999. [**Small Worlds**], Chapter 1. Princeton University Press: 3-8.  
+- Kieran Healy. (2013). [Using Metadata to Find Paul Revere](https://kieranhealy.org/blog/archives/2013/06/09/using-metadata-to-find-paul-revere/), Blog post.  
+- David Austin. (2006). [How Google Finds Your Needle in the Web's Haystack](http://www.ams.org/publicoutreach/feature-column/fcarc-pagerank), 
+American Mathematical Society Feature Column.
+
+### **Spring Break**
+#### **March 10: No Class (Spring Break)**  
+#### **March 12: No Class (Spring Break)**
+
+
+### **[Assignment: Lab 6](https://cbail.github.io/ids704/labs/lab6/lab6.html)**
+*- Due: March 24* 
+
+#### **March 17: Text Networks, Part 1**
+***Materials:***  
+[Slides, ](https://compsocialscience.github.io/summer-institute/2018/materials/day3-text-analysis/text-networks/Rpres/SICSS_Text_Networks.html) [Annotated Code](https://cbail.github.io/ids704/text-networks/rmarkdown/Text_Networks.html)
+
+#### **March 19: Text Networks, Part 2**
+***Topics:***  
+Textnets
+
+***Materials:***  
+[Slides, ](https://compsocialscience.github.io/summer-institute/2018/materials/day3-text-analysis/text-networks/Rpres/SICSS_Text_Networks.html) [Annotated Code](https://compssocialscience.github.io/summer-institute/2018/materials/day3-text-analysis/text-networks/rmarkdown/SICSS_Text_Networks.html)
+
+
+### **[Assignment: Lab 7](https://cbail.github.io/ids704/labs/lab7/lab7.html)**
+*- Due: April 2* 
+
+#### **March 24: Word Embeddings, Part 1**
+***Materials:***  
+[Slides, ](https://cbail.github.io/ids704/word2vec/rpres/word2vec.html) [Annotated Code](https://cbail.github.io/ids704/word2vec/rmarkdown/word2vec.html)
+
+#### **March 26: Word Embeddings Part 2**
+***Materials:***  
+[Slides, ](https://cbail.github.io/ids704/word2vec/rpres/word2vec.html) [Annotated Code](https://cbail.github.io/ids704/word2vec/rmarkdown/word2vec.html)
+
+#### **March 31: Sentence Parsers**
+***Topics:***  
+Part-of-Speech Tagging, Sentence Parsing, and Named Entity Recognition
+
+***Materials:***  
+[Slides, ](https://cbail.github.io/ids704/tagging-parsing-ner/Taggingparsing.html)
+
+#### **April 2: No Class**
+#### **April 7: Chat Bots**
+***Materials:***  
+[Slides, ](https://cbail.github.io/ids704/chat-bots/Chat%20Bots%20and%20Language%20Generation.html#/)
+
+### **Final Project Presentations**
+#### **April 9: Final Project Presentations**
+*- Groups 1-3*
+
+#### **April 14: Final Project Presentations**
+*- Groups 4-6*

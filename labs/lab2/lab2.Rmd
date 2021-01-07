@@ -1,0 +1,35 @@
+---
+title: "Lab 2: Screen-Scraping"
+output: 
+  html_document:
+    toc_float: true
+  
+---
+
+### Due: February 4
+
+**Introduction**
+
+This lab is meant to work through your understanding of Screen (web) scraping. For it we will be using the Rvest package and Selenium R. This lab is not meant to trick you in anyway, however if you run into issues or errors, please reach out to your TAs [Kate](kathryn.coulter@duke.edu) and [Joe](joseph.littell@duke.edu) through email or slack. 
+
+**Although this lab has 4 listed questions, as stated in class question 2 and 4 are optional and will not count for points.** Question 1 will instead count as 5 points and question 3 will count as the other 5 points. In order to recieve full credit you must turn in a PDF or HTML of your .RMD file individually by the due date with all your code and cells run. You may work with others but each student is expected to turn in their own PDF. This process will be consistent throughout your labs, however there is one unique caveat with Lab 01.
+
+**Resources**
+
+Before asking any basic questions, please review the following resources;
+
+[Slides](https://compsocialscience.github.io/summer-institute/2018/materials/day2-digital-trace-data/screenscraping/Rpres/SICSS_Screenscraping.html#/) <br>
+[Annotated Code](https://cbail.github.io/ids704/screenscraping/rmarkdown/Screenscraping_in_R.html)<br>
+[RVest Documentation](https://cran.r-project.org/web/packages/rvest/rvest.pdf)<br>
+[RSelenium Documentation](https://www.rdocumentation.org/packages/RSelenium/versions/1.7.5)
+
+**Questions**
+
+*Question 1:* Navigate to the wikipedia page on [highest grossing films](https://en.wikipedia.org/wiki/List_of_highest-grossing_films). One there, utlize the inspect function of your web browswer in conjuection with RVest to copy the table of highest grossing films. Print out the head() of this table
+
+*Question 2:* OPTIONAL: Repeat the process in Question 1 using RSelenium instead of RVest.
+
+*Question 3:* Unfortunately data we want isn't always as nicely structured as a wikipedia table. Navigate to a this blog post about [famous movie quotes ](https://blog.hubspot.com/sales/famous-movie-quotes). Using the Selector Gadget for you browser, pull the first 10 quotes from the list, print the results.
+
+
+*Question 4:* OPTIONAL: Repeat the process Question 3 Usining RSelenium instead of RVest.

@@ -1,0 +1,15 @@
+---
+title: "Lab 6: Text Networks"
+output: 
+  html_document:
+    toc_float: true
+  
+---
+
+### Due: March 24
+
+This lab corresponds with the course material covering text networks. Submit your completed assignment as an R Markdown file to Dropbox by the start of class on March 24.
+
+1.
+
+2. 

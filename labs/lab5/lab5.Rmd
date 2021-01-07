@@ -1,0 +1,37 @@
+---
+title: "Lab 5: Topic Modeling"
+output: 
+  html_document:
+    toc_float: true
+  
+---
+
+### Due: Friday, March 6
+
+**Introduction**
+
+This lab corresponds with the course material pertaining to topic modeling, covered in class Tuesday, February 25 and Thursday, February 27. Submit your completed assignment as a knit R Markdown PDF or HTML file to Dropbox (or printed PDF of a Jupyter Notebook) by the end of day Friday, March 6.
+
+
+**Resources**
+
+The data you will use for this lab is taken from a Kaggle Dataset created by RakanNimer provided at https://www.kaggle.com/rakannimer/billboard-lyrics which contains the lyrics for all Billboard Year-End Hot 100 (1965-2015) songs. Click the "Download" link which should download a csv file "billboard_lyrics_1964-2015.csv" that we will use as the dataset for this lab.
+
+**Lab**
+
+1. (1 point) Using the link above and the downloaded file, load the lyrics dataset into your workspace. 
+
+```{r, include=FALSE}
+df <- read.csv("billboard_lyrics_1964-2015.csv")
+dim(df)
+```
+
+2. (1 point) Subset the data into "decades of lyrics" so that each new dataframe contains the lyrics and other columns from a particular decade of music. Use the following decades so that each has a dataset of song lyrics: 1965-1974, 1975-1984, 1985-1994, 1995-2004, 2005-2014.
+
+3. (2 points) Prepare each of the datasets so that it can be analyzed using the `topicmodels` package.
+
+4. (3 points) Choose a single dataset and run three models to try and identify an appropriate value for `k` (the number of topics). State which value of `k` you choose after running these three models as well as why you picked those particular three values of `k` to run for each of your models.
+
+5. (2 points) Using the same value of `k`, run a model on each of the other decades lyrics datasets.
+
+6. (1 point) Based on your output, does it seem like your value of `k` was a good choice for all decades of lyrics? 

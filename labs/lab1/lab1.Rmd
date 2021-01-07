@@ -1,0 +1,50 @@
+---
+title: "Lab 1: Application Programming Interfaces"
+output: 
+  html_document:
+    toc_float: true
+  
+---
+
+### Due: January 28
+
+**Introduction**
+
+This lab is meant to work through your understanding of Application Programing Interfaces, or APIs. For it we will be using the Twitter API and the RTweet package in R. This lab is not meant to trick you in anyway, however if you run into issues or errors, please reach out to your TAs [Kate](kathryn.coulter@duke.edu) and [Joe](joseph.littell@duke.edu) through email or slack. 
+
+If you have issues getting creidtionals for Twitter following the first API class, please reach out to Kate or Joe immediately. The best practices are creating a brand new account from your Duke.edu email, stating that you're in the United States, and this is a graduate school project. Many of the red flags are avoided in this case.
+
+This lab will have 10 questions that will count for 1 point each. In order to recieve full credit you must turn in a .RMD file individually by the due date with all your code and cells run. You may work with others but each student is expected to turn in their own .RMD file. This process will be consistent throughout your labs, however there is one unique caveat with Lab 01. Since you must create a token you are asked to do so in two steps. The first, aligning your twitter tokens and secrets to a set of variables, then, the second, using those variables to create a twitter token for API use. After you have completed your lab and ran all of the cells, please go back and delete the cell that has your private information.
+
+**Resources**
+
+Before asking any basic questions, please review the following resources;
+
+[Slides](https://cbail.github.io/ids704/apis/Rpres/APIs.html) <br>
+[Annotated Code](https://cbail.github.io/ids704/apis/rmarkdown/Application_Programming_interfaces.html)<br>
+[Rtweet Documentation ](https://rtweet.info/reference/index.html)
+
+**Questions**
+
+*Question 1:* As taught in the lecture, many APIs require authentication to ensure proper use of data. Twitter is one such company that does so. In order to access the underlying Twitter API, you must create a token using your own personal information as instructed during lecture. Utilizing the create_token() function of rtweet, create a token for further use.
+
+*Question 2:* Now that we have access to the data through our token, we can start looking at tweets. Utilizing the get_timeline() function, collect the most recent 250 tweets from @espn. Inspect the contents of those tweets.
+
+*Question 3:* The case for most social media is very few individuals that use a platform actually directly create content, in this case 'tweet'. Therefore many users will use other functions such as favorite or retweet other user's content. As such you may want to see what other ways people are participating in a platform. Utilizing the get_favorites() function, gather @PatrickMahomes favorites/likes. 
+
+*Question 4:* As with favorites, many users retweet, essentially sharing content other users have made. utilizing the get_retweet() get_retweeters() functions to gather the retweets of this Patrick Mahomes' tweet (status: 857944539029483520).
+
+*Question 5:* Social media is very good at giving insight on how users interaction between themselve. Later in the course we will touch on social network analysis, but there are a number of functions that can help us build a network once we aquire those skills. Part of understanding a network is to look at who follows who, essentially who is being given content from a user directly. Utilizing the get_followers() and get_friends () functions, collect @PatrickMahome followers, and who he follows respectively.
+
+*Question 6:* Sometimes when using social media you're not exactly sure what you're looking for directly. Having specific users names, or content IDs is very helpful, but not always directly available without some prior research. Twitter specifically has functions that allow you to look up what topic are popular in certain regions, which can lead to more specific information about a specific item you're looking for. Utilizing the get_trends() function, identify trends that are happening in Raleigh, NC. As a point to notice, not every location will return trending information.
+
+*Question 7:* If trends or stream don't work in content collection, you can search tweets using key words or hashtags. With our basic account, we are only allow to search tweets made in the last 6-9 days, and 18,000 total at a time. Utilizing the search_tweets() function, collect 5000 tweets containing the keywords 'superbowl' and 'sbliv'
+
+*Question 8:* Similarly, you can search straight from the stream as posts are being created. You can choose a random sampling or narrow it down by user_id or key word. Without narrowing down the stream, a lot of random content, much without context will be found. Utlizing the stream_tweets() function, collect 2 minutes worth of tweets.
+
+*Question 9:* Because tweets are timestamped, we can plot content to determine patterns or relevancy of post. Utilizng the ts_data() and ts_plot() functions, plot the content of from question 7 concening the super bowl.
+
+*Question 10:* Another interesting function is geotagging, since most tweets are made from cellular phones, their data can contain positiona data that can be tracked. Typically this opted out, but about 10% of posts are geotagged. Utilizng the Map package in R, plot the geotagged tweets from question 7.
+
+
+**End of Lab 01 Assignment**
