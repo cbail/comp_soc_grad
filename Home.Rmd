@@ -15,7 +15,8 @@ output:
 
 **Instructor:** [Chris Bail](www.chrisbail.net)  
 **Email:** christopher.bail@duke.edu  
-**Office Hours:** by appointment  
+**Weekly Online Discussion Time:** 4-5pm
+**Office Hours:** 4:45-5:15pm (please email in advance to schedule) 
 **Github:** https://github.com/cbail  
 **Slack Channel:** https://join.slack.com/t/duke-dwt8988/shared_invite/zt-kifv4g5z-esbBuZaxT2l8gR973yxUQw  
 
@@ -206,9 +207,14 @@ Data & Society* 2 (2)
 Bo Pang, Lillian Lee, & Shivakumar Vaithyanathan. [Thumbs up: Sentiment Classification using Machine Learning Techniques](https://www.aclweb.org/anthology/W02-1011/).      
 Kathleen Carley. [Extracting Culture Through Textual Analysis](https://www.sciencedirect.com/science/article/abs/pii/0304422X94900116). *Poetics*, 22:291-312.    
 
+### **Spring Break**
+#### March 7- March 13
+
 
 ### **Topic Models**
-#### March 7- March 13
+#### March 14- March 21
+
+**No group meeting this week because of "spring break"**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IUAHUEy1V0Q" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -228,7 +234,7 @@ Speech Detection and the Problem of Offensive Language.” In Proceedings of the
 Conference on Web and Social Media (ICWSM), 512–515.  
 
 ### **Text Networks**
-#### March 14- March 20 
+#### March 21- March 28 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-2dBI2ULcQw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -244,7 +250,7 @@ Networks.” Socius.
 
 
 ### **Surveys in the Digital Age**
-#### March 21- March 27 
+#### March 28- April 3 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/j8fJGV17Hcg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -265,7 +271,7 @@ Chris Bail et al. [Assessing the Impact of the Russian Internet Research Agency�
 
 
 ### **Online Experiments**
-#### March 28- April 3
+#### April 4- April 10
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/hKiKiWbeD6I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -288,15 +294,6 @@ Bail, Christopher et al. 2018.[Exposure to Opposing Views on Social Media can In
 
 Alexandra Siegal & Vivienne Badaan. [#No2Sectarianism: Experimental Approaches to Reducing Sectarian Hate Speech Online](https://alexandra-siegel.com/wp-content/uploads/2019/05/Sectarianism_Experiment_RR_Website.pdf).  
 
-### **Building Apps**
-#### April 4- April 10
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/3wjYcIOpBgU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-**Required Reading**
-
-Bail, Christopher A. 2015. [Taming Big Data: Using App Technology to Study Organizational Behavior on SocialMedia](https://drive.google.com/file/d/0Byvk0A8Ic21YMC1SNHIzWU5jSXc/view?usp=sharing) *Sociological Methods and Research* 46:2 189-21.
-
 ### **Wellness Week**
 #### April 11- April 17
 
@@ -305,9 +302,15 @@ will be updated throughout the spring. Although the goal of Wellness Week 2021 i
 one day. Balancing your personal, professional, and academic commitments is a skill
 that should be practiced regularly and over time. 
 
-
-### **Student-led Topic TBD**
+### **Building Apps**
 #### April 18- April 24
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3wjYcIOpBgU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+**Required Reading**
+
+Bail, Christopher A. 2015. [Taming Big Data: Using App Technology to Study Organizational Behavior on SocialMedia](https://drive.google.com/file/d/0Byvk0A8Ic21YMC1SNHIzWU5jSXc/view?usp=sharing) *Sociological Methods and Research* 46:2 189-21.
+
 
 ### **Presentations?**
 #### April 25- May 1
