@@ -15,8 +15,8 @@ output:
 
 **Instructor:** [Chris Bail](www.chrisbail.net)  
 **Email:** christopher.bail@duke.edu  
-**Weekly Online Discussion Time:** 4-5pm
-**Office Hours:** 4:45-5:15pm (please email in advance to schedule) 
+**Weekly Online Discussion Time:** 4-5pm  
+**Office Hours:** 4:45-5:15pm (please email in advance to schedule)  
 **Github:** https://github.com/cbail  
 **Slack Channel:** https://join.slack.com/t/duke-dwt8988/shared_invite/zt-kifv4g5z-esbBuZaxT2l8gR973yxUQw  
 
@@ -38,7 +38,7 @@ This course will be held entirely online due to the COVID-19 pandemic. In order 
 
 ## Course Assignments
 
-The only assignment for this class is a final project that examines some dimension of computational social science that involves at least 6,500 words of written material. My goal is to make this class as useful to you as possible while you navigate whatever stage of the graduate school process you are in.For example, I welcome students using this class as an opportunity to add a substantial new computational component to a paper already in progress, draft a research proposal for a dissertation (or grant), or start an entirely new project. I offer this flexibility in order to help you focus on producing high quality publications as soon as possible in graduate school given the considerable competition for academic jobs at the moment. If you do not plan to pursue an academic job, I am also open to other ways of adopting your project for this class into a "portfolio" project for future employers as well.
+The only assignment for this class is a final project that examines some dimension of computational social science that involves at least 6,500 words of written material. My goal is to make this class as useful to you as possible while you navigate whatever stage of the graduate school process you are in.For example, I welcome students using this class as an opportunity to add a substantial new computational component to a paper already in progress, draft a research proposal for a dissertation (or grant), or start an entirely new project. I offer this flexibility in order to help you focus on producing high quality publications as soon as possible in graduate school given the considerable competition for academic jobs at the moment. If you do not plan to pursue an academic job, I am also open to other ways of adopting your project for this class into a "portfolio" project for future employers as well. ***Final Projects are Due by 5pm EST on April 30th.***
 
 ## Grading
 
@@ -316,6 +316,8 @@ Bail, Christopher A. 2015. [Taming Big Data: Using App Technology to Study Organ
 #### April 25- May 1
 
 During this last week I'll ask each of you to give a 15 minute presentation about your project during our regularly-schedule group meeting
+
+Final Papers are Due by 5pm EST on April 30th. 
 
 
 
