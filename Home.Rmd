@@ -13,118 +13,85 @@ output:
 <br>
 <br>
 
-## Instructor
-
-**Name:** [Chris Bail](www.chrisbail.net)  
+**Instructor:** [Chris Bail](www.chrisbail.net)  
 **Email:** christopher.bail@duke.edu  
-**Office Hours:** TBD 
+**Office Hours:** by appointment  
 **Github:** https://github.com/cbail  
-**Slack Channel:** https://dukemids.slack.com/archives/CRSPSGFHR  
-
-
-## COVID-19 ANNOUNCEMENT
-
-The worldwide spread of COVID-19 has impacted all of us. Many of us are dealing with unprecedented challenges that have stretched us to our limits. I am working hard to adapt our class to these challenging circumstances but will need to ask for your patience as I continue to assess how to best serve everyone's needs in a rapidly changing environment. Below is my first effort to outline a path forward for us, but I am very open to feedback from you and may make additional changes in accordance with your needs or requests.
-
-***Remote Learning***
-
-Thank you all for completing the anonymous survey I distributed about your current situation. This has been enormously helpful as I try to chart the best path forward for our class. Unfortunately, this survey revealed that some people in our class do not have regular access to high quality internet right now, which means at least some people will not be able to participate in classes in real time. To accommodate these people, I am going to distribute links to recordings of each Zoom session in our course's slack channel for the remainder of the session.  We will hold class at our regularly scheduled times. For those of you who are not able to join live, I will be very happy to answer any questions you have by slack at a later point in time.  
-
-***Course Requirements***
-
-As you may have heard by now, Duke University has decided to make all classes graded as "Satisfactory" or "Unsatisfactory" unless you request a letter grade. You will receive a "Satisfactory" grade as long as you achieve more than a 70 (or C-) in our class. In general, I hope this decision will give you the flexibility you need to achieve at a high level in our class. Our move to remote learning does pose significant challenges to the main course requirement in our class: our group projects. When we meet on Tuesday, I am going to discuss a path forward for this course requirement, which will likely involve reassessing what is possible via remoate interaction. I am also hoping that we can try to find some positive energy, however, and perhaps do some work together that might help societal response to COVID-19. For now, we will proceed with our original grading plan for the group project (see grade calculations below). We will also continue with weekly labs, but I am going to make these optional for the rest of the semester. If you do not complete any additional labs, your grade for the semester will be the average grade you have received on the labs before spring break.
-
-***Other Forms of Support***
-
-If you require support- whether it is health care, mental health care, or financial support- Duke has created a single website where updates are being posted about the university's response and other resources that are available to you as a member of the Duke community, I urge you to visit https://coronavirus.duke.edu/ regularly to take advantage of the information posted there each day.
-
+**Slack Channel:** https://join.slack.com/t/duke-dwt8988/shared_invite/zt-kifv4g5z-esbBuZaxT2l8gR973yxUQw  
 
 ## Course Description
 
-Welcome to "Data Scraping and Text Analysis" (IDS 703), one of the core courses in [Duke University's Masters Program in Interdisciplinary Data Science (MIDS)](https://datascience.duke.edu/). The past decade has witnessed an explosion of data produced by websites such as Twitter, Facebook, Google, and Wikipedia, but also the mass digitization of historical archives and administrative records. Though these new data sources hold enormous potential to address a range of pressing problems within industry and academia, collecting and analyzing text-based data presents unique challenges. Fortunately, the widespread availability of text-based data coincides with major advances in the fields of computer science and natural language processing. This course will provide students with an overview of popular techniques for collecting, processing, and analyzing text-based data—including screen-scraping, mining data from application programming interfaces or APIs, topic modeling, text networks, and advanced text classifiers. We will also discuss the challenge of conducting empirical research with these data, including ethics, causal inference, and the external validity of digital sources.
+The past decade has witnessed an explosion of data produced by websites such as Twitter, Facebook, Google, and Wikipedia, the mass digitization of administrative and historical records, and the rapid expansion of mobile technology into nearly every corner of our lives. A new wave of techniques for collecting, classifying, and analyzing these data hold enormous potential to address many of the most urgent questions in social science: How do diseases spread? What causes financial meltdowns? How did America become so politically polarized? This course surveys the nascent inter-disciplinary field of computational social science, which combines insights from computer and information science, sociology and social network analysis, economics, political science, and public health in order to answer such questions.
 
-## Prerequisites
+## Course Prerequisites
 
-R will be the main programming language for this course. Though the class will review basic programming techniques such as loops and functions, practical experiences with R is highly recommended. The majority of our time will be spent mastering the following R packages: `rvest`, `rtweet`, `lda`, `stm`, `ldaviz`, `textnets`, and `wordVectors` as well as a variety of functions in base R. General knowledge of data structures, basic programming, and rudimentary statistics is also required.
+This course requires a basic working knowledge of the R programming language. If you do not yet have such training, I invite you to check out my computational social science ["boot camp"](https://sicss.io/boot_camp) videos. 
 
+## Course Goals
 
-## Readings
+Students will learn to ask social science questions, and learn how to answer them by collecting data from digital sources such as social media sites. Students will also acquire advanced skills in automated text analysis, application programming interfaces, and the R programming language.
 
-[Salganik, Matthew. *Bit by Bit: Social Research in the Digital Age.* Princeton: Princeton University Press](https://press.princeton.edu/books/ebook/9781400888184/bit-by-bit)
+## Course Format
 
-[Nicholas Cristakis & James Fowler. *Connected: The Surprising Power of Our Social Networks and How they Shape Our Lives*, Hachette](http://www.connectedthebook.com/)  
+This course will be held entirely online due to the COVID-19 pandemic. In order to provide maximum flexibility to students as we all navigate this unprecedented challenge, the course combines pre-recorded, asynchronous, lectures with weekly small group discussions. Nearly all of these lectures focus on a skill in computational social science (e.g. collecting data from Twitter) and the group discussions are designed to facilitate conversations of required readings each week that showcase how these techniques can be applied to answer social science questions. Because of the length of the pre-recoded videos-- and to prevent Zoom fatigue-- we will limit our group conversations to one hour each week. If you need one-on-one help with questions aboud coding or techniques, you can either a) ask each other (or me) on our course's Slack workspace (learn more about slack below), or b) visit my virtual office hours (by appointment).
 
-All other readings are linked under course material as indicated in the course schedule below.
+## Course Assignments
 
-## Requirements
+The only assignment for this class is a final project that examines some dimension of computational social science that involves at least 6,500 words of written material. My goal is to make this class as useful to you as possible while you navigate whatever stage of the graduate school process you are in.For example, I welcome students using this class as an opportunity to add a substantial new computational component to a paper already in progress, draft a research proposal for a dissertation (or grant), or start an entirely new project. I offer this flexibility in order to help you focus on producing high quality publications as soon as possible in graduate school given the considerable competition for academic jobs at the moment. If you do not plan to pursue an academic job, I am also open to other ways of adopting your project for this class into a "portfolio" project for future employers as well.
 
-Success in this course requires that you attend class, complete requisite readings before class, complete weekly homework assignments, complete a mid-term exam, and develop a final group project with several of your classmates. I describe each of these requirements in the following sections.
+## Grading
 
-#### Readings
-
-You must complete all readings prior to class and come to our meetings prepared to discuss them.
-
-#### Labs
-
-Weekly homework exercises or "labs" are linked in the course schedule below and are designed to gauge your knowledge of the material presented during that week. Each lab is designed to correspond with a major course topic, which will be indicated in the lab title. Each lab will be posted at least one week prior to its due date so that it is available for students at the start of the first lecture covering that topic and is due via [Dropbox](https://sakai.duke.edu/portal/site/6f22e36f-1583-4afe-a6e0-ad75fb2229b9/tool-reset/4049fefe-3ba1-43e8-9cba-a92758c96655) after the second lecture on the topic, prior to the next scheduled lecture's start. For example, Lab 1 which covers material presented on APIs (January 21 and 23) will be posted by the start of class, January 21, and will be due via Dropbox prior to January 28's lecture.
-
-#### Mid-Term Exam
-
-The mid-term exam will include approximately 20 multiple choice and short answer questions that cover content from the first half of the class.
-
-#### Final Project
-
-The final project will be a team-based research project that fuses all of the skills we learn during the course of the semester in order to answer a question that can be solved with text-based data. All projects must analyze at least 1,000 documents and apply some type of automated text analysis to identify meaningful patterns within them and address an empirical question of interest to data scientists, broadly defined. Examples might include a sentiment analysis of a company’s tweets and responses to those tweets in order to measure customer satisfaction, or an analysis that seeks to determine why posts on Facebook fan pages go viral.
-
-Each team must produce a 20-minute presentation that describes their research project, delivered in powerpoint or another medium during a final class period and delivered to the instructor before this time. Each team must also submit a report that details their work and what type of work each student contributed to the project (i.e which team members contributed to which part of the project and precisely what work each team member did)– your goal should be for all members of the team to contribute to each stage of the project. As an additional accountability mechanism, ⅓ of your grade for the final project will be determined by your fellow group members, with the remaining ⅔ of your grade for the project determined by Professor Bail (and this part of the grade will be assigned to the entire team, instead of by individual members).
-
-#### Participation
-
-Attendance in this course is mandatory and you are expected to be an active participant in all classroom discussions and exercises. If you suffer from social anxiety or if English is not your first language, I encourage to participate in discussions outside of class on our Slack Channel. Uncivil behavior such as engaging in personal conversations during lectures or discussion sections, browsing internet sites not relevant to classroom discussions, and cell phone usage will negatively affect your grade. Your participation grade will be calculated at the end of the semester, but if you would like to receive input on your participation grade at any point during the semester please contact me.
-
-#### Grading Scheme
-
-Labs: 30%
-
-Mid-Term Exam: 30%
-
-Final Project: 30% (⅓ of this grade is determined by your fellow group members and ⅔ is determined by Professor Bail)
-
-Participation: 10%
-
+100% of your grade will be assessed based upon your final project. Your final project will be graded according to the overall quality of the research and writing presented therein. The best final projects will a) ask a research question relevant computational social science; b) explain why this topic is important (to social science and/or the world); c) develop at least one hypothesis to answer this question (unless you convincingly argue for the need for purely descriptive research); d) collect data that allows you to test this hypothesis; and e) describe whether or not your hypothesis was confirmed, and what implications this should have for people who want to do future research on your topic. Whether you find support for your hypothesis will not effect your grade. Instead, you will be evaluated based upon a) the quality of the research question you ask and the hypotheses you develop; and, b) the quality of the data collection and analysis. If your analysis does not support your hypothesis– and your hypothesis is a well-founded one– then I consider this to be an important finding. There will be no extra credit assignments for this class. Students who submit final projects after the due date will receive an incomplete or failing grade.
 
 ## General Course Policies
 
-I am a very reasonable person and understand that sometimes “life happens” and you may not be able to complete your work in a timely manner. I will therefore carefully consider all explanations for deviance from the general course policies outlined below.
+The Duke Compact recognizes our shared responsibility for our collective health and well-being. Please be reminded that by signing your name to this pledge, you have acknowledged that you understand the conditions for being on campus (if you are on campus this semester). These include complying with university, state, and local requirements and acting to protect yourself and those around you. For complete language and updated policies, please visit [this link](https://returnto.duke.edu/compact/.2.)
+
+#### Academic Integrity/the DCS
+
+All students, whether residing on campus or learning remotely, must adhere to the Duke Community Standard (DCS): Duke University is a community dedicated to scholarship, leadership, and service and to the principles of honesty, fairness, and accountability. Citizens of this community commit to reflect upon these principles in all academic and non-academic endeavors, and to protect and promote a culture of integrity. Plagiarism, cheating or other violations will be dealt with according to University policy. All student assignments will be processed by plagiarism detection software.
 
 
-#### Attendance
+#### Mental Health and Wellness
 
-Attendance for all lectures is mandatory. If you have a University-excused reason to miss please follow the proper procedure for letting your TA know about it. You are responsible for knowing and acting in accordance with University policy.
+We are living through unprecedented times that are creating tremendous challenges for everyone. If your mental health concerns and/or stressful events negatively affect your daily emotional state, academic performance, or ability to participate in your daily activities, many resources are available to you, including ones listed below. Duke encourages all students to access these resources, particularly as we navigate the transition and emotions associated with this time. Duke Student Government has worked with DukeReach and student advocates to create the Fall 2020 “Two-Click Support” Form, and Duke Reach has expanded its drop in hours as well.
 
-#### Academic Integrity
+[DukeReach](http://studentaffairs.duke.edu/dukereach). Provides comprehensive outreach services to identify and support students in managing all aspects of wellbeing.
 
-Understand and follow the Duke Community Standard. Plagiarism, cheating or other violations will be dealt with according to University policy. All student assignments will be processed by plagiarism detection software.
+[Counseling and Psychological Services (CAPS)](https://studentaffairs.duke.edu/caps). CAPS services include individual,
+group, and couples counseling services, health coaching, psychiatric services, and
+workshops and discussions. They can be reached at (919) 660-1000
 
-#### Mental Health and Stress
+[Blue Devils Care](bluedevilscare.duke.edu). A convenient and cost-effective way for Duke students to receive 24/7 mental health support through TalkNow.  Managing daily stress and self-care are also important to well-being. 
 
-If you are suffering from stress, depression, anxiety, or any other mental health issues that are common among Duke students, please consider visiting Counseling and Psychological Services (CAPS) on campus, who provide support on everything from minor to major mental health issues.
+Duke offers several resources for students to both seek assistance on coursework and improve overall
+wellness, some of which are listed below and described in more detail at [this link](https://studentaffairs.duke.edu/duwell/holistic-wellness)
 
-[Duke Reach](https://studentaffairs.duke.edu/dukereach1) - ( [email](dukereach@duke.edu) ) serves to direct students and faculty alike to resources that can help them during their times of need. These resources include the Student Behavioral Assessment team, the Duke Wellness Center, and many more resources.
+• The Academic Resource Center: (919) 684-5917, theARC@duke.edu,
+or arc.duke.edu,  
+• DuWell: (919) 681-8421, duwell@studentaffairs.duke.edu,
+or https://studentaffairs.duke.edu/duwell)  
+• WellTrack: https://app.welltrack.com/
 
+#### Accessibility
 
+In addition to accessibility issues experienced during the typical academic year, I recognize that remote learning may present additional challenges. Students may be experiencing unreliable wi-fi, lack of access to quiet study spaces, varied time-zones, or additional responsibilities while studying at home. If you are experiencing these or other difficulties, please contact me to discuss possible accommodations.
 
-#### Extra-Credit Policy
+**Technology Accommodations** Students with demonstrated high financial need who may have limited access to
+computers and stable internet may request assistance in the form of loaner laptops and WIFI hotspots. For new Spring 2021 technology assistance requests, please [go here](https://duke.qualtrics.com/jfe/form/SV_cveTE8cXSCEsozX). Please note that supplies are limited. For updates, please visit [this link](https://keeplearning.duke.edu/undergraduate-students/).
 
-There will be no extra credit or make-up assignments. 
+**Academic Accommodations** The Student Disability Access Office (SDAO) will continue to be available to ensure that students are able to engage with their courses and related assignments. Students should be in touch with the Student Disability Access Office to request or update accommodations under these circumstances. Zoom has the ability to provide live closed captioning. If you are not seeing this, and but would like to see this feature, please reach out to Duke OIT for assistance.
+
+**Accommodations for Remote Students** If you are unable to attend one of our group meetings, please contact me and we can discuss how to accommodate your needs during this very challenging time.
+
 
 #### Syllabus
   
 I reserve the right to make changes to the syllabus, including project due dates and test dates. These changes will be announced as early as possible and no later than one week before materials are due.
 
-#### Help Us Make This Course Better
+#### Help Me Make This Course Better
 
-Creating high quality teaching materials is hard work! If you ever discover any errors or inconsistencies in the teaching materials on this site, please email one of the teaching assistants and cc me.
+Creating high quality teaching materials is hard work! If you ever discover any errors or inconsistencies in the teaching materials on this site, please email me.
 
 ## Resources
 
@@ -133,10 +100,6 @@ Below I have listed several resources which I hope might be helpful to you for t
 #### RStudio Tutorials
 
 In this class, we will use the R software, which is free and open-source. There are a variety of different ways to use R, but the most common way to do so is with the software RStudio, a free Graphical User Interface which you can either run on your laptop, or via a web server. R and RStudio are both supported by a vibrant community of individuals who have created a treasure-trove of learning resources online. [Here is a link](https://education.rstudio.com/) to some very helpful beginner tutorials, and this link also includes some intermediate and advanced tutorials if you really want to challenge yourself.
-
-#### The Summer Institutes in Computational Social Science (SICSS)
-
-I am the co-founder of the Summer Institutes in Computational Social Science. These annual events are designed to introduce PhD students and other young faculty members to the field in dozens of places around the globe. Though masters-level students are not currently invited to attend the events, my co-founder and I have created an [extensive website](https://compsocialscience.github.io/summer-institute/curriculum) that includes links to videos of lectures that he and I give on a range of topics, as well as talks by some of the most renowned scholars in the field, employees of large companies interested in the field such as Facebook, and others who work in non-profits or government. If you find this class interesting or exciting, you may wish to check out some of the videos from these speakers to get a sense of the full-array of work going on in our field.
 
 #### Stack Overflow
 
@@ -147,9 +110,7 @@ The field of computational social science is growing so rapidly that none of the
 Many of the most important advances in computational social science appear first on Twitter or blogs. I therefore encourage you to open a Twitter account- if you don’t already have one- and follow the authors we read, or consider checking out [the people I follow](https://twitter.com/chris_bail/following). Having a Twitter account will also come in handy for some of the exercises we do in class to collect data from Twitter. Of the many blogs that you might read, I recommend [R Bloggers](https://www.r-bloggers.com/), which provides a concise overview of new functions in R as well as solutions to common problems faced by computational social scientists, as well as those in other fields.
 
 
-## Course Schedule (Spring 2021)
-
-We meet every Tuesday and Thursday unless otherwise noted. Readings must be completed before each class where they appear on the schedule below. Lab assignments are linked below immediately prior to the date they are open (note that each lab's due date is listed below as well as on the lab page). Links to my presentation slides and annotated code relevant to each lecture are below as well.
+## Course Schedule 
 
 
 ### **Introduction**
@@ -163,20 +124,16 @@ We meet every Tuesday and Thursday unless otherwise noted. Readings must be comp
 <br>
 
 ***Required reading***:  
-- Salganik, Matthew, *Bit by Bit*, [Introduction](https://www.bitbybitbook.com/en/1st-ed/introduction/) & [Observing Behavior](https://www.bitbybitbook.com/en/1st-ed/observing-behavior/)  
--Lazer et al. [Computational social science: Obstacles and opportunities](https://science.sciencemag.org/content/369/6507/1060.summary), *Science*.
+Salganik, Matthew, *Bit by Bit*, [Introduction](https://www.bitbybitbook.com/en/1st-ed/introduction/) & [Observing Behavior](https://www.bitbybitbook.com/en/1st-ed/observing-behavior/)  
+Lazer et al. [Computational social science: Obstacles and opportunities](https://science.sciencemag.org/content/369/6507/1060.summary), *Science*.
 <br>
 
 ***Suggested reading***:  
-- Lazer et al. [Computational Social Science](https://science.sciencemag.org/content/323/5915/721), *Science*.  
-- Lazer et al. [Life in the network: the coming age of computational social science](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2745217/), *Science*.  
-- Watts, Duncan. [Should social science be more solution-oriented?](https://www.nature.com/articles/s41562-016-0015), *Nature*
-- Blumenstock et al. [Predicting Poverty and Wealth from Mobile Phone Data](https://science.sciencemag.org/content/350/6264/1073), *Science*.
-- David Donoho. [50 Years of Data Science](https://courses.csail.mit.edu/18.337/2015/docs/50YearsDataScience.pdf)  
-<br>
-<br>
-<br>
-<br>
+Lazer et al. [Computational Social Science](https://science.sciencemag.org/content/323/5915/721), *Science*.  
+Lazer et al. [Life in the network: the coming age of computational social science](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2745217/), *Science*.  
+Watts, Duncan. [Should social science be more solution-oriented?](https://www.nature.com/articles/s41562-016-0015), *Nature*
+Blumenstock et al. [Predicting Poverty and Wealth from Mobile Phone Data](https://science.sciencemag.org/content/350/6264/1073), *Science*.
+David Donoho. [50 Years of Data Science](https://courses.csail.mit.edu/18.337/2015/docs/50YearsDataScience.pdf)  
 
 ### **Ethics**
 #### January 31-February 6 
@@ -188,24 +145,44 @@ We meet every Tuesday and Thursday unless otherwise noted. Readings must be comp
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lJyK6kXeDbc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ***Required reading***:  
-- Salganik, Matthew, *Bit by Bit*, [Ethics](https://www.bitbybitbook.com/en/1st-ed/ethics/) 
-- Adam Kramer, Jamie Guillory, & Jeffrey Hancock. [Emotional Contagion](https://www.pnas.org/content/111/24/8788), PNAS.
+Salganik, Matthew, *Bit by Bit*, [Ethics](https://www.bitbybitbook.com/en/1st-ed/ethics/)  
+Adam Kramer, Jamie Guillory, & Jeffrey Hancock. [Emotional Contagion](https://www.pnas.org/content/111/24/8788), *PNAS*.
 
 ***Suggested reading***:  
-- Robinson Meyer. [Everything We Know About Facebook's Secret Mood Manipulation Experiment](https://www.theatlantic.com/technology/archive/2014/06/everything-we-know-about-facebooks-secret-mood-manipulation-experiment/373648/), *the Atlantic*.
-
-
-
+Robinson Meyer. [Everything We Know About Facebook's Secret Mood Manipulation Experiment](https://www.theatlantic.com/technology/archive/2014/06/everything-we-know-about-facebooks-secret-mood-manipulation-experiment/373648/), *the Atlantic*  
+Alex Hanna and Meredith Whittaker. [Timnit Gebru’s Exit From Google Exposes a Crisis in AI](Timnit Gebru’s Exit From Google Exposes a Crisis in AI), *Wired*  
+Sendhil Mullainathan. [Biased Algorithms Are Easier to Fix Than Biased People](Biased Algorithms Are Easier to Fix Than Biased People). *New York Times*  
 
 ### **Application Programming Interfaces**
 #### February 14- February 20
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jde_c7pB5U8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+**Required Reading**
+
+Munger, Kevin, and Joseph Phillips. 2020. [Right-Wing YouTube: A Supply and Demand Perspective](https://journals.sagepub.com/doi/abs/10.1177/1940161220964767?journalCode=hijb)
+The International Journal of Press/Politics, 34.  
+
+Freelon, Deen. 2018. [Computational Research in the Post-API Age](https://doi.org/10.1080/10584609.2018.1477506) *Political Communication* 35 (4): 665–68.  
+
+**Suggested Reading**
+
+Askin, Noah, and Michael Mauskapf. 2017. [What Makes Popular Culture Popular? Product Features
+and Optimal Differentiation in Music.](https://journals.sagepub.com/doi/10.1177/0003122417728662) *American Sociological Review* 82 (5): 910–44.  
+
+Pablo Barbera & Zachary C. Steinert-Threlkeld [How to Use Social Media Data for Political Science Research](http://pablobarbera.com/static/social-media-data-generators.pdf)  
+
 ### **Screen Scraping**
 #### February 21- February 27
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/LjTZNmBjC5Q" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+**Required Reading**
+King, Gary, Jennifer Pan, and Margaret E. Roberts. 2013. [How Censorship in China Allows Government Criticism but Silences Collective Expression](https://doi.org/10.1017/S0003055413000014) *American Political Science Review* 107 (02): 326–43.  
+
+Chris Bail et al. [Using Internet Search Data to examine the relationship between anti-Muslim and pro-ISIS sentiment in U.S. counties](https://advances.sciencemag.org/content/4/6/eaao5948). *Science Advances*  
+
+
 
 ### **An Introduction to Text Analysis**
 #### February 28- March 6
@@ -215,15 +192,19 @@ We meet every Tuesday and Thursday unless otherwise noted. Readings must be comp
 <iframe width="560" height="315" src="https://www.youtube.com/embed/TAlO-5NJB7I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wSIi2ZRKjaE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br>
 
 ***Required reading***:  
-- Justin Grimmer & Brandon Stewart. [Text as Data: The Promises and Pitfalls of Automated Content Analysis](https://www.cambridge.org/core/journals/political-analysis/article/text-as-data-the-promise-and-pitfalls-of-automatic-content-analysis-methods-for-political-texts/F7AAC8B2909441603FEB25C156448F20), Political Analysis. 
-- James Evans & Pedro Aceves. [Machine Translation: Mining Text for Social Theory](https://www.annualreviews.org/doi/abs/10.1146/annurev-soc-081715-074206). Annual Review of Sociology.  
+
+Justin Grimmer & Brandon Stewart. [Text as Data: The Promises and Pitfalls of Automated Content Analysis](https://www.cambridge.org/core/journals/political-analysis/article/text-as-data-the-promise-and-pitfalls-of-automatic-content-analysis-methods-for-political-texts/F7AAC8B2909441603FEB25C156448F20), Political Analysis.   
+James Evans & Pedro Aceves. [Machine Translation: Mining Text for Social Theory](https://www.annualreviews.org/doi/abs/10.1146/annurev-soc-081715-074206). Annual Review of Sociology.  
 
 ***Suggested reading***:  
- 
-- Bo Pang, Lillian Lee, & Shivakumar Vaithyanathan. [Thumbs up: Sentiment Classification using Machine Learning Techniques](https://www.aclweb.org/anthology/W02-1011/).    
-- Kathleen Carley. [Extracting Culture Through Textual Analysis](https://www.sciencedirect.com/science/article/abs/pii/0304422X94900116). Poetics, 22:291-312.  
+
+DiMaggio, Paul. 2015. “[Adapting Computational Text Analysis to Social Science (and Vice Versa)](https://doi.org/10.1177/2053951715602908).” *Big
+Data & Society* 2 (2)  
+Bo Pang, Lillian Lee, & Shivakumar Vaithyanathan. [Thumbs up: Sentiment Classification using Machine Learning Techniques](https://www.aclweb.org/anthology/W02-1011/).      
+Kathleen Carley. [Extracting Culture Through Textual Analysis](https://www.sciencedirect.com/science/article/abs/pii/0304422X94900116). *Poetics*, 22:291-312.    
 
 
 ### **Topic Models**
@@ -233,13 +214,34 @@ We meet every Tuesday and Thursday unless otherwise noted. Readings must be comp
 
 
 ***Required reading***:  
-- Blei, David M. 2012. Probabilistic Topic Models. Communications of the ACM (Note: this is a challenging article, so don’t worry if you are not able to understand every last part).
+Blei, David M. 2012. Probabilistic Topic Models. *Communications of the ACM*  
+Roberts, Margaret, Brandon M. Stewart, Dustin Tingley, Christopher Lucas, Jetson Leder-Luis, Shana
+Kushner Gadarian, Bethany Albertson, and David Rand. 2014. [Structural Topic Models for OpenEnded Survey Responses: Structural Topic Models for Survey Responses](https://doi.org/10.1111/ajps.12103) *American Journal of
+Political Science* 58 (4): 1064–82.  
 
+**Suggested reading***:
+Kozlowski, Austin, Matt Taddy, and James Evans. 2019. [The Geometry of Culture: Analyzing
+the Meanings of Class through Word Embeddings](https://doi.org/10.1177/0003122419877135) *American Sociological Review*  
+
+Davidson, Thomas, Dana Warmsley, Michael Macy, and Ingmar Weber. 2017. “Automated Hate
+Speech Detection and the Problem of Offensive Language.” In Proceedings of the 11th International
+Conference on Web and Social Media (ICWSM), 512–515.  
 
 ### **Text Networks**
 #### March 14- March 20 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-2dBI2ULcQw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+***Required reading***:
+- Rule, Alix et al. 2015 [Lexical shifts, substantive changes, and continuity in State of the Union discourse, 1790–2014](https://www.pnas.org/content/112/35/10837)  
+- Bail, Christopher A. 2016. [Combining natural language processing and network analysis to examine how advocacy organizations stimulate conversation on social media](https://www.pnas.org/content/113/42/11823) *PNAS*  
+
+***Suggested reading***
+Karell, Daniel, and Michael Freedman. 2019. [Rhetorics of Radicalism](https://doi.org/10.1177/0003122419859519) *American Sociological Review* 84 (4): 726–53.   
+
+Stoltz, Dustin S, and Marshall A Taylor. 2019. “Textual Spanning: Finding Discursive Holes in Text
+Networks.” Socius.  
+
 
 ### **Surveys in the Digital Age**
 #### March 21- March 27 
@@ -254,6 +256,14 @@ We meet every Tuesday and Thursday unless otherwise noted. Readings must be comp
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/97gahprIIOI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+**Required Reading**
+
+Wang, Wei et al. [Forecasting Elections with non-representative polls](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/04/forecasting-with-nonrepresentative-polls.pdf), *International Journal of Forecasting*  
+
+**Suggested Reading**
+Chris Bail et al. [Assessing the Impact of the Russian Internet Research Agency’s Impact on the Political Attitudes and Behaviors of U.S. Twitter Users](https://www.pnas.org/content/early/2019/11/20/1906420116). *PNAS*  
+
+
 ### **Online Experiments**
 #### March 28- April 3
 
@@ -267,17 +277,36 @@ We meet every Tuesday and Thursday unless otherwise noted. Readings must be comp
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/aQPce-WgJBY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+**Required Reading**
 
+Salganik, Matthew, Peter Sheridan Dodds, and Duncan Watts. 2006. [Experimental Study of Inequality
+and Unpredictability in an Artificial Cultural Market](). *Science* 311: 854–56.  
+
+Bail, Christopher et al. 2018.[Exposure to Opposing Views on Social Media can Increase Political Polarization](https://www.pnas.org/content/115/37/9216)  
+
+**Suggested Reading**
+
+Alexandra Siegal & Vivienne Badaan. [#No2Sectarianism: Experimental Approaches to Reducing Sectarian Hate Speech Online](https://alexandra-siegel.com/wp-content/uploads/2019/05/Sectarianism_Experiment_RR_Website.pdf).  
 
 ### **Building Apps**
 #### April 4- April 10
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3wjYcIOpBgU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+**Required Reading**
+
+Bail, Christopher A. 2015. [Taming Big Data: Using App Technology to Study Organizational Behavior on SocialMedia](https://drive.google.com/file/d/0Byvk0A8Ic21YMC1SNHIzWU5jSXc/view?usp=sharing) *Sociological Methods and Research* 46:2 189-21.
+
 ### **Wellness Week**
 #### April 11- April 17
 
-### **Chat Bots**
+Our weekly discussion is cancelled this week. A list of wellness strategies and programs is available at [this link](https://studentaffairs.duke.edu/duwell/wellness-day-2021) and
+will be updated throughout the spring. Although the goal of Wellness Week 2021 is to provide time and space to engage in activities that enhance your well-being, please remember that wellness isn’t achieved in
+one day. Balancing your personal, professional, and academic commitments is a skill
+that should be practiced regularly and over time. 
+
+
+### **Student-led Topic TBD**
 #### April 18- April 24
 
 ### **Presentations?**
