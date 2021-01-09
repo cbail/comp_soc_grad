@@ -239,12 +239,12 @@ Conference on Web and Social Media (ICWSM), 512–515.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-2dBI2ULcQw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ***Required reading***:
-- Rule, Alix et al. 2015 [Lexical shifts, substantive changes, and continuity in State of the Union discourse, 1790–2014](https://www.pnas.org/content/112/35/10837)  
-- Bail, Christopher A. 2016. [Combining natural language processing and network analysis to examine how advocacy organizations stimulate conversation on social media](https://www.pnas.org/content/113/42/11823) *PNAS*  
+Rule, Alix et al. 2015 [Lexical shifts, substantive changes, and continuity in State of the Union discourse, 1790–2014](https://www.pnas.org/content/112/35/10837)  
+Bail, Christopher A. 2016. [Combining natural language processing and network analysis to examine how advocacy organizations stimulate conversation on social media](https://www.pnas.org/content/113/42/11823) *PNAS*  
 
 ***Suggested reading***
 Karell, Daniel, and Michael Freedman. 2019. [Rhetorics of Radicalism](https://doi.org/10.1177/0003122419859519) *American Sociological Review* 84 (4): 726–53.   
-
+Smith, Steven et al. [Automatic detection of influential actors in disinformation networks](https://www.pnas.org/content/118/4/e2011216118.short?rss=1&utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+pnas%2FUJrK+%28Recent+Issues%29) *PNAS*.  
 Stoltz, Dustin S, and Marshall A Taylor. 2019. “Textual Spanning: Finding Discursive Holes in Text
 Networks.” Socius.  
 
