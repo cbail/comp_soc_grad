@@ -15,8 +15,8 @@ output:
 
 **Instructor:** [Chris Bail](www.chrisbail.net)  
 **Email:** christopher.bail@duke.edu  
-**Weekly Online Discussion Time:** 4-5pm  
-**Office Hours:** 4:45-5:15pm (please email in advance to schedule)  
+**Weekly Online Discussion Time:** 4-5pm Tuesday
+**Office Hours:** 4:45-5:45pm Wednesday (please email in advance to schedule)  
 **Github:** https://github.com/cbail  
 **Slack Channel:** https://join.slack.com/t/duke-dwt8988/shared_invite/zt-kifv4g5z-esbBuZaxT2l8gR973yxUQw  
 
