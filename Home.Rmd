@@ -16,7 +16,7 @@ output:
 **Instructor:** [Chris Bail](www.chrisbail.net)  
 **Email:** christopher.bail@duke.edu  
 **Weekly Online Discussion Time:** 4-5pm Tuesday
-**Office Hours:** 4:45-5:45pm Wednesday (please email in advance to schedule)  
+**Office Hours:** 5:00-6:00pm Wednesday (please email in advance to schedule)  
 **Github:** https://github.com/cbail  
 **Slack Channel:** https://join.slack.com/t/duke-dwt8988/shared_invite/zt-kifv4g5z-esbBuZaxT2l8gR973yxUQw  
 
@@ -155,9 +155,11 @@ Alex Hanna and Meredith Whittaker. [Timnit Gebru’s Exit From Google Exposes a 
 Sendhil Mullainathan. [Biased Algorithms Are Easier to Fix Than Biased People](Biased Algorithms Are Easier to Fix Than Biased People). *New York Times*  
 
 ### **Application Programming Interfaces**
-#### February 14- February 20
+#### February 7- February 13
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jde_c7pB5U8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+[Annotated code](https://compsocialscience.github.io/summer-institute/2020/materials/day2-digital-trace-data/apis/rmarkdown/Application_Programming_interfaces.html) that describes procedures in video in more detail.
 
 **Required Reading**
 
@@ -174,9 +176,11 @@ and Optimal Differentiation in Music.](https://journals.sagepub.com/doi/10.1177/
 Pablo Barbera & Zachary C. Steinert-Threlkeld [How to Use Social Media Data for Political Science Research](http://pablobarbera.com/static/social-media-data-generators.pdf)  
 
 ### **Screen Scraping**
-#### February 21- February 27
+#### February 14- February 20
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/LjTZNmBjC5Q" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+[Annotated code](https://compsocialscience.github.io/summer-institute/2020/materials/day2-digital-trace-data/screenscraping/rmarkdown/Screenscraping.html) that describes procedures in video in more detail.
 
 **Required Reading**
 King, Gary, Jennifer Pan, and Margaret E. Roberts. 2013. [How Censorship in China Allows Government Criticism but Silences Collective Expression](https://doi.org/10.1017/S0003055413000014) *American Political Science Review* 107 (02): 326–43.  
@@ -186,7 +190,7 @@ Chris Bail et al. [Using Internet Search Data to examine the relationship betwee
 
 
 ### **An Introduction to Text Analysis**
-#### February 28- March 6
+#### February 21- March 7
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pLsC4UyzX_U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -194,6 +198,8 @@ Chris Bail et al. [Using Internet Search Data to examine the relationship betwee
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wSIi2ZRKjaE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <br>
+
+[Annotated code](https://compsocialscience.github.io/summer-institute/2020/materials/day3-text-analysis/intro-text-analysis/rmarkdown/Introduction_to_Text_Analysis.html) that describes procedures in video in more detail.
 
 ***Required reading***:  
 
@@ -207,6 +213,20 @@ Data & Society* 2 (2)
 Bo Pang, Lillian Lee, & Shivakumar Vaithyanathan. [Thumbs up: Sentiment Classification using Machine Learning Techniques](https://www.aclweb.org/anthology/W02-1011/).      
 Kathleen Carley. [Extracting Culture Through Textual Analysis](https://www.sciencedirect.com/science/article/abs/pii/0304422X94900116). *Poetics*, 22:291-312.    
 
+### **Word2Vec**
+#### February 28- March 7
+
+No Video Lecture this week, see [annotated code](https://cbail.github.io/ids704/word2vec/rmarkdown/word2vec.html) instead.
+
+***Required reading***:  
+
+Kozlowski et al. 2019. [The Geometry of Culture: Analyzing the Meanings of Class through Word Embeddings](https://journals.sagepub.com/doi/full/10.1177/0003122419877135) American Sociological Review
+
+
+***Suggested reading***: 
+
+Garg et al. 2018. [Word embeddings quantify 100 years of gender and ethnic stereotypes](https://www.pnas.org/content/115/16/E3635)
+
 ### **Spring Break**
 #### March 7- March 13
 
@@ -218,6 +238,7 @@ Kathleen Carley. [Extracting Culture Through Textual Analysis](https://www.scien
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IUAHUEy1V0Q" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+[Annotated code](https://compsocialscience.github.io/summer-institute/2020/materials/day3-text-analysis/topic-modeling/rmarkdown/Topic_Modeling.html) that describes procedures in video in more detail.
 
 ***Required reading***:  
 Blei, David M. 2012. Probabilistic Topic Models. *Communications of the ACM*  
@@ -237,6 +258,8 @@ Conference on Web and Social Media (ICWSM), 512–515.
 #### March 21- March 28 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-2dBI2ULcQw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+[Annotated code](https://compsocialscience.github.io/summer-institute/2020/materials/day3-text-analysis/text-networks/rmarkdown/Text_Networks.html) that describes procedures in video in more detail.
 
 ***Required reading***:
 Rule, Alix et al. 2015 [Lexical shifts, substantive changes, and continuity in State of the Union discourse, 1790–2014](https://www.pnas.org/content/112/35/10837)  
