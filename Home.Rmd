@@ -199,7 +199,9 @@ Chris Bail et al. [Using Internet Search Data to examine the relationship betwee
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wSIi2ZRKjaE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <br>
 
-[Annotated code](https://compsocialscience.github.io/summer-institute/2020/materials/day3-text-analysis/intro-text-analysis/rmarkdown/Introduction_to_Text_Analysis.html) that describes procedures in video in more detail.
+[Annotated code part 1,](https://compsocialscience.github.io/summer-institute/2020/materials/day3-text-analysis/intro-text-analysis/rmarkdown/Introduction_to_Text_Analysis.html) [Annotated code part 2,](https://compsocialscience.github.io/summer-institute/2020/materials/day3-text-analysis/basic-text-analysis/rmarkdown/Basic_Text_Analysis_in_R.html) [Annotated code part 3,](https://sicss.io/2020/materials/day3-text-analysis/dictionary-methods/rmarkdown/Dictionary-Based_Text_Analysis.html)
+
+that describes procedures in video in more detail.
 
 ***Required reading***:  
 
